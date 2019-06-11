@@ -1,1 +1,1 @@
-Proxy Http made in C++ and QT5
+HTTP proxy made in C++ and QT5
