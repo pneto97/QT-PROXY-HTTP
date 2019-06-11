@@ -16,15 +16,15 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_actionproxy_triggered()
 {
-    ui->stackedWidget->setCurrentIndex(0);
+    ui->stackedWidget->setCurrentIndex(static_cast<int>(ScreenName::PROXY) );
 }
 
 void MainWindow::on_actionspider_triggered()
 {
-    ui->stackedWidget->setCurrentIndex(1);
+    ui->stackedWidget->setCurrentIndex(static_cast<int>(ScreenName::SPIDER));
 }
 
 void MainWindow::on_actiondump_triggered()
 {
-    ui->stackedWidget->setCurrentIndex(2);
+    ui->stackedWidget->setCurrentIndex(static_cast<int>(ScreenName::DUMP));
 }

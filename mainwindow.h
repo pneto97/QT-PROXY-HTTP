@@ -7,6 +7,13 @@ namespace Ui {
 class MainWindow;
 }
 
+enum class ScreenName{
+
+    PROXY = 0,
+    SPIDER = 1,
+    DUMP =2
+};
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
