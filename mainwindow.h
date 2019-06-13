@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QThread>
 #include "proxy.h"
+#include "webtools.h"
 #include <QDebug>
 
 namespace Ui {
@@ -36,6 +37,8 @@ private:
     Ui::MainWindow *ui;
     QThread proxyThread;
     Proxy proxy;
+    QThread webtoolsThread;
+    WebTools webtools;
 
     void setScreen(ScreenName screenName);
 };

@@ -20,19 +20,43 @@ MainWindow::~MainWindow()
 
 void MainWindow::setScreen(ScreenName screenName){
 
-    if(proxyThread.isRunning()){
-        proxy.stop();
-        proxyThread.wait();
-    }
+
+    proxy.stop();
+    webtools.stop();
 
     if(screenName == ScreenName::PROXY){
         qDebug() << "Proxy";
 
-
+        if(proxyThread.isRunning())
+            proxyThread.wait();
 
         proxy.doSetup(proxyThread);
         proxy.moveToThread(&proxyThread);
         proxyThread.start();
+
+    }
+
+    if(screenName == ScreenName::SPIDER){
+        qDebug() << "Spider";
+
+        if(webtoolsThread.isRunning())
+            webtoolsThread.wait();
+
+        webtools.doSetup(webtoolsThread, Operation::SPIDER);
+        webtools.moveToThread(&webtoolsThread);
+        webtoolsThread.start();
+
+    }
+
+    if(screenName == ScreenName::DUMP){
+        qDebug() << "Dump";
+
+        if(webtoolsThread.isRunning())
+            webtoolsThread.wait();
+
+        webtools.doSetup(webtoolsThread, Operation::DUMP);
+        webtools.moveToThread(&webtoolsThread);
+        webtoolsThread.start();
 
     }
 

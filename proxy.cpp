@@ -17,9 +17,11 @@ void Proxy::stop(){
 }
 
 void Proxy::doWork(){
+    stopFlag = false;
+
     for (int i = 0; i < 100; i++) {
 
-        qDebug() << i;
+        qDebug() << "proxy " << i;
         QThread::msleep(30);
 
 
