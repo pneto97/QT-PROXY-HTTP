@@ -15,7 +15,7 @@ void Proxy::doWork(){
     for (int i = 0; i < 100; i++) {
 
         qDebug() << i;
-        QThread::msleep(30);
+        QThread::msleep(500);
 
         if(this->stop == true) {
             stop = false;
