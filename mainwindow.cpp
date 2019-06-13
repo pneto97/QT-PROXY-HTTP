@@ -24,41 +24,42 @@ void MainWindow::setScreen(ScreenName screenName){
     proxy.stop();
     webtools.stop();
 
-    if(screenName == ScreenName::PROXY){
-        qDebug() << "Proxy";
+    switch(screenName){
 
-        if(proxyThread.isRunning())
-            proxyThread.wait();
+        case ScreenName::PROXY:
+            qDebug() << "Proxy";
 
-        proxy.doSetup(proxyThread);
-        proxy.moveToThread(&proxyThread);
-        proxyThread.start();
+            if(proxyThread.isRunning())
+                proxyThread.wait();
 
+            proxy.doSetup(proxyThread);
+            proxy.moveToThread(&proxyThread);
+            proxyThread.start();
+            break;
+
+        case ScreenName::SPIDER:
+            qDebug() << "Spider";
+
+            if(webtoolsThread.isRunning())
+                webtoolsThread.wait();
+
+            webtools.doSetup(webtoolsThread, Operation::SPIDER);
+            webtools.moveToThread(&webtoolsThread);
+            webtoolsThread.start();
+            break;
+
+        case ScreenName::DUMP:
+            qDebug() << "DUMP";
+
+            if(webtoolsThread.isRunning())
+                webtoolsThread.wait();
+
+            webtools.doSetup(webtoolsThread, Operation::DUMP);
+            webtools.moveToThread(&webtoolsThread);
+            webtoolsThread.start();
+            break;
     }
 
-    if(screenName == ScreenName::SPIDER){
-        qDebug() << "Spider";
-
-        if(webtoolsThread.isRunning())
-            webtoolsThread.wait();
-
-        webtools.doSetup(webtoolsThread, Operation::SPIDER);
-        webtools.moveToThread(&webtoolsThread);
-        webtoolsThread.start();
-
-    }
-
-    if(screenName == ScreenName::DUMP){
-        qDebug() << "Dump";
-
-        if(webtoolsThread.isRunning())
-            webtoolsThread.wait();
-
-        webtools.doSetup(webtoolsThread, Operation::DUMP);
-        webtools.moveToThread(&webtoolsThread);
-        webtoolsThread.start();
-
-    }
 
     ui->stackedWidget->setCurrentIndex( static_cast<int>(screenName) );
 
