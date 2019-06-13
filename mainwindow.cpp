@@ -8,7 +8,12 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     //ui->stackedWidget->setCurrentIndex(static_cast<int>(ScreenName::PROXY) );
+
     setScreen(ScreenName::PROXY);
+    connect(&proxy,SIGNAL(textReceived(QString)),this, SLOT(on_textReceived(QString)), Qt::QueuedConnection);
+
+
+
 }
 
 MainWindow::~MainWindow()
@@ -85,3 +90,8 @@ void MainWindow::on_actiondump_triggered()
   //  ui->stackedWidget->setCurrentIndex(static_cast<int>(ScreenName::DUMP));
     setScreen(ScreenName::DUMP);
 }
+
+void MainWindow::on_textReceived(QString txt){
+    ui->plainTextEdit->document()->setPlainText(txt);
+}
+

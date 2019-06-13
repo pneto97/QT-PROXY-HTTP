@@ -4,6 +4,7 @@
 #include <QObject>
 #include <QDebug>
 #include <QThread>
+#include <QString>
 
 class Proxy : public QObject
 {
@@ -17,6 +18,7 @@ private:
     bool stopFlag;
 
 signals:
+    void textReceived(QString );
 
 public slots:
     void doWork();

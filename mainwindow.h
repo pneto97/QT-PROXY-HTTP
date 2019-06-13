@@ -6,6 +6,8 @@
 #include "proxy.h"
 #include "webtools.h"
 #include <QDebug>
+#include <QString>
+#include "proxy.h"
 
 namespace Ui {
 class MainWindow;
@@ -32,6 +34,9 @@ private slots:
     void on_actionspider_triggered();
 
     void on_actiondump_triggered();
+
+public slots:
+    void on_textReceived(QString );
 
 private:
     Ui::MainWindow *ui;
