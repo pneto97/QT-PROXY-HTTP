@@ -21,12 +21,14 @@ MainWindow::~MainWindow()
 void MainWindow::setScreen(ScreenName screenName){
 
     if(proxyThread.isRunning()){
-        proxy.stop = true;
+        proxy.stop();
         proxyThread.wait();
     }
 
     if(screenName == ScreenName::PROXY){
         qDebug() << "Proxy";
+
+
 
         proxy.doSetup(proxyThread);
         proxy.moveToThread(&proxyThread);

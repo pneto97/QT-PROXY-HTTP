@@ -11,14 +11,19 @@ void Proxy::doSetup(QThread &cThread){
     connect(&cThread, SIGNAL(started()),this, SLOT(doWork()));
 }
 
+void Proxy::stop(){
+    stopFlag = true;
+}
+
 void Proxy::doWork(){
     for (int i = 0; i < 100; i++) {
 
         qDebug() << i;
-        QThread::msleep(500);
+        QThread::msleep(30);
 
-        if(this->stop == true) {
-            stop = false;
+
+        if(this->stopFlag == true) {
+            stopFlag = false;
             break;
         }
 

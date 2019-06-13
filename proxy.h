@@ -11,7 +11,10 @@ class Proxy : public QObject
 public:
     explicit Proxy(QObject *parent = nullptr);
     void doSetup(QThread &cThread);
-    bool stop;
+    void stop();
+
+private:
+    bool stopFlag;
 
 signals:
 
