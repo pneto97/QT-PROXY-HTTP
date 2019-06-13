@@ -3,6 +3,7 @@
 
 Proxy::Proxy(QObject *parent) : QObject(parent)
 {
+    stopFlag = false;
 }
 
 void Proxy::doSetup(QThread &cThread){
