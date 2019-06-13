@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QThread>
+#include "proxy.h"
+#include <QDebug>
 
 namespace Ui {
 class MainWindow;
@@ -31,6 +34,10 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    QThread proxyThread;
+    Proxy proxy;
+
+    void setScreen(ScreenName screenName);
 };
 
 #endif // MAINWINDOW_H

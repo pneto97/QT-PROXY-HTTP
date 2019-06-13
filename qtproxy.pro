@@ -26,10 +26,12 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        proxy.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+        proxy.h
 
 FORMS += \
         mainwindow.ui
