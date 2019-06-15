@@ -27,6 +27,12 @@ void MainWindow::setScreen(ScreenName screenName){
 
 
     proxy.stop();
+    if(proxyThread.isRunning()){
+        proxyThread.terminate();
+        proxy.close_sockets();
+    }
+
+
     webtools.stop();
 
     switch(screenName){
@@ -34,8 +40,10 @@ void MainWindow::setScreen(ScreenName screenName){
         case ScreenName::PROXY:
             qDebug() << "Proxy";
 
-            if(proxyThread.isRunning())
-                proxyThread.wait();
+           ui->plainTextEdit->setPlainText("");
+           ui->plainTextEdit_2->setPlainText("");
+           // if(proxyThread.isRunning())
+           //     proxyThread.wait();
 
             proxy.doSetup(proxyThread);
             proxy.moveToThread(&proxyThread);
