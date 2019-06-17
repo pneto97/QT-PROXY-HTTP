@@ -25,12 +25,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        httputils.cpp \
         main.cpp \
         mainwindow.cpp \
         proxy.cpp \
         webtools.cpp
 
 HEADERS += \
+        httputils.h \
         mainwindow.h \
         proxy.h \
         webtools.h

@@ -52,7 +52,7 @@
             <item>
              <widget class="QPushButton" name="pushButton">
               <property name="text">
-               <string>Liberar</string>
+               <string>Send request</string>
               </property>
              </widget>
             </item>
@@ -177,8 +177,8 @@
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>681</width>
-               <height>284</height>
+               <width>92</width>
+               <height>92</height>
               </rect>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_4">

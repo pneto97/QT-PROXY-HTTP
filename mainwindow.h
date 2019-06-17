@@ -28,6 +28,9 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+signals:
+    void sendRequestAndReply(QString,QString);
+
 private slots:
     void on_actionproxy_triggered();
 
@@ -35,8 +38,16 @@ private slots:
 
     void on_actiondump_triggered();
 
+    void on_pushButton_clicked();
+
 public slots:
     void on_textReceived(QString );
+    void on_requestReceived(QString);
+    void on_requestSent();
+    void on_replyReceived(QString);
+    void on_replyRetrieved();
+
+
 
 private:
     Ui::MainWindow *ui;
@@ -46,6 +57,7 @@ private:
     WebTools webtools;
 
     void setScreen(ScreenName screenName);
+
 };
 
 #endif // MAINWINDOW_H
