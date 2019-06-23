@@ -18,7 +18,7 @@
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="page">
        <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -52,7 +52,7 @@
             <item>
              <widget class="QPushButton" name="pushButton">
               <property name="text">
-               <string>Liberar</string>
+               <string>Send request</string>
               </property>
              </widget>
             </item>
@@ -83,7 +83,7 @@
            <enum>QLayout::SetMinAndMaxSize</enum>
           </property>
           <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,13,2">
+           <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,13,0,0,2">
             <property name="sizeConstraint">
              <enum>QLayout::SetMinAndMaxSize</enum>
             </property>
@@ -108,7 +108,7 @@
                </size>
               </property>
               <property name="text">
-               <string>URL</string>
+               <string>URL:</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
@@ -134,6 +134,44 @@
                 <width>16777215</width>
                 <height>30</height>
                </size>
+              </property>
+              <property name="verticalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>Depth:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTextEdit" name="textEdit_3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                <horstretch>1</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>1</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>60</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="verticalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
               </property>
              </widget>
             </item>
@@ -191,87 +229,7 @@
                  <bool>true</bool>
                 </property>
                 <property name="plainText">
-                 <string>/
-/blabla1/
-/blabla1/teste1
-/blabla2/
-/blabla3/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-/blabla3/teste2/
-
-
-</string>
+                 <string/>
                 </property>
                </widget>
               </item>
