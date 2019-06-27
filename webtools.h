@@ -40,13 +40,19 @@ public:
 
 private:
     bool stopFlag;
+    bool buttonFlag;
+
+    void waitButton();
 
 
 signals:
 
+    void nodeSpider(QString);
+
 public slots:
     void runSpider();
     void runDump();
+    void on_buttonPressed();
 };
 
 #endif // WEBTOOLS_H

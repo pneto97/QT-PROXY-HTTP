@@ -25,7 +25,6 @@
 #include <sstream>
 #include <iostream>
 #include <unistd.h>
-#include "httputils.h"
 #define MAX_BUFFER_SIZE 10000
 
 
@@ -54,6 +53,6 @@ class Request{
 int sendData(string, int);
 string sendGet(int* serverSock,string host, string uri);
 string fixUrl(string str, string host);
-findPaths(std::vector<string>& paths, std::string response, string host);
+int findPaths(std::vector<string>& paths, std::string response, string host);
 
 #endif

@@ -18,6 +18,12 @@ MainWindow::MainWindow(QWidget *parent) :
     //conecta botao à acão do proxy
     connect(this, SIGNAL(sendRequestAndReply(QString,QString)), &proxy, SLOT(on_buttonPressed(QString,QString)), Qt::QueuedConnection);
 
+    //conecta botao à acão de liberar o spider
+    connect(this, SIGNAL(unlockSpider()), &webtools, SLOT(on_buttonPressed()), Qt::QueuedConnection);
+
+    //conecta botao à acão de liberar o spider
+    connect(&webtools, SIGNAL(nodeSpider(QString)), this, SLOT(on_nodeSpider(QString)), Qt::QueuedConnection);
+
     //ao enviar o request, desabilita o botao e a edicao do request
     connect(&proxy, SIGNAL(requestSent()),this, SLOT(on_requestSent()), Qt::QueuedConnection);
 
@@ -156,10 +162,22 @@ void MainWindow::on_replyRetrieved(){
 }
 
 
+void MainWindow::on_nodeSpider(QString node){
+    ui->plainTextEdit_3->appendPlainText(node);
+}
+
+
 void MainWindow::on_pushButton_clicked()
 {
     //qDebug() << "clicou";
     emit sendRequestAndReply(ui->plainTextEdit->toPlainText(), ui->plainTextEdit_2->toPlainText() );
     ui->pushButton->setDisabled(true);
     //emit sendRequest("TESTE");
+}
+
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    qDebug() << "clicou2";
+    emit unlockSpider();
 }

@@ -30,6 +30,7 @@ public:
 
 signals:
     void sendRequestAndReply(QString,QString);
+    void unlockSpider();
 
 private slots:
     void on_actionproxy_triggered();
@@ -40,12 +41,15 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_pushButton_2_clicked();
+
 public slots:
     void on_textReceived(QString );
     void on_requestReceived(QString);
     void on_requestSent();
     void on_replyReceived(QString);
     void on_replyRetrieved();
+    void on_nodeSpider(QString);
 
 
 

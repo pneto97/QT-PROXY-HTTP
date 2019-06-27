@@ -2,13 +2,12 @@
 #include <QMutex>
 #include <QCoreApplication>
 
-Proxy::Proxy(QObject *parent) : QObject(parent)
-{
+Proxy::Proxy(QObject *parent) : QObject(parent){
+
     stopFlag = false;
     buttonFlag = false;
-
-
 }
+
 
 void Proxy::doSetup(QThread &cThread){
 
@@ -16,11 +15,14 @@ void Proxy::doSetup(QThread &cThread){
     connect(&cThread, SIGNAL(started()),this, SLOT(doWork()));
 }
 
+
 void Proxy::stop(){
     stopFlag = true;
 }
 
+
 void Proxy::waitButton(){
+
     /*
     QEventLoop loop;
     connect(this,  SIGNAL(stopSignal()), &loop, SLOT(quit()) );
@@ -32,10 +34,11 @@ void Proxy::waitButton(){
         QCoreApplication::processEvents();
     }
     buttonFlag = false;
-
 }
 
+
 int Proxy::initServerSocket(string host){
+
     int serverFd;
         struct addrinfo hints, *res;
     //    int https = 0;
@@ -67,8 +70,8 @@ int Proxy::initServerSocket(string host){
 }
 
 
-
 void Proxy::doWork(){
+
     stopFlag = false;
 
     const char* port = "8228";
@@ -207,7 +210,7 @@ void Proxy::doWork(){
 
         //parse pro response?
         //sendData(reply.replace("\n","\r\n");toStdString(),clisockfd);
-         sendData(reply.toStdString(),clisockfd);
+        sendData(reply.toStdString(),clisockfd);
 
         emit replyRetrieved();
         qDebug() << reply.toStdString().c_str();
@@ -225,6 +228,7 @@ void Proxy::doWork(){
     this->thread()->quit();
 }
 
+
 void Proxy::on_buttonPressed(QString request, QString reply){
 
     this->buttonFlag = true;
@@ -233,6 +237,7 @@ void Proxy::on_buttonPressed(QString request, QString reply){
     this->reply = reply;
 
 }
+
 
 /*void Proxy::doWork(){
     stopFlag = false;

@@ -42,6 +42,45 @@ string Request::getRequest(){
     return this->req;
 }
 
+
+int initServerSocket(string host){
+
+    int serverFd;
+    struct addrinfo hints, *res;
+    int https = 0;
+
+    const char* port = "80";
+
+
+    memset(&hints,0,sizeof(hints));
+    hints.ai_family = AF_UNSPEC;
+    hints.ai_socktype = SOCK_STREAM;
+
+    if (getaddrinfo(host.c_str(), port, &hints, &res) != 0) {
+    //if (getaddrinfo("linuxhowtos.org", porta, &hints, &res) != 0) {
+        fprintf (stderr," Erro no formato do endereco do servidor! \n");
+        exit (1);
+    }
+
+
+
+    if ((serverFd = socket(res->ai_family, res->ai_socktype, res->ai_protocol)) < 0) {
+        fprintf (stderr," Erro ao criar socket para o servidor! \n");
+        exit (1);
+    }
+
+    if (connect(serverFd, res->ai_addr, res->ai_addrlen) < 0) {
+        fprintf (stderr," Erro ao conectar com o servidor ! \n");
+        exit (1);
+    }
+
+    freeaddrinfo(res);
+//    free(addr);
+
+    return serverFd;
+}
+
+
 int sendData(string data, int sock){
 
     int sendSize = data.size();
@@ -66,6 +105,7 @@ int sendData(string data, int sock){
           free(sendBuf);
           return sentTotal;
 }
+
 
 string sendGet(int* serverSock,string host, string uri){
 
@@ -98,6 +138,7 @@ string sendGet(int* serverSock,string host, string uri){
 
     return response;
 }
+
 
 string fixUrl(string str, string host){
 
