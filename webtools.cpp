@@ -44,7 +44,7 @@ void WebTools::stop(){
 
 void WebTools::runSpider(){
 
-    waitButton();
+    //waitButton();
 
     int sockfd, newsockfd;
     int clilen = sizeof(struct sockaddr);
@@ -98,7 +98,7 @@ void WebTools::runSpider(){
     string uri = "/";
     string host = "www.linuxhowtos.org";
     //string host = "www.ba.gov.br";
-    int deep = 1;
+    int depth = 1;
     //server socket
     int serverSock = 0;
 
@@ -117,7 +117,7 @@ void WebTools::runSpider(){
     //     cout << *it << endl;
     // }
 
-    for(int i = 1 ; i < deep ; i++){
+    for(int i = 1 ; i < depth ; i++){
 
        vector<string> pathsCpy(paths);
 
@@ -158,6 +158,8 @@ void WebTools::runSpider(){
 
     ::close(serverSock);
     ::close(sockfd);
+
+    this->thread()->quit();
     /*stopFlag = false;
 
     for (int i = 0; i < 100; i++) {

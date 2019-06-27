@@ -56,7 +56,7 @@ private:
 
 
 signals:
-    void textReceived(QString );
+    void textReceived(QString);
     void requestReceived(QString);
     void requestSent();
     void replyReceived(QString);

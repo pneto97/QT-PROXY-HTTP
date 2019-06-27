@@ -42,6 +42,9 @@ private:
     bool stopFlag;
     bool buttonFlag;
 
+    //int depth;
+    //string url;
+
     void waitButton();
 
 

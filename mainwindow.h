@@ -3,11 +3,11 @@
 
 #include <QMainWindow>
 #include <QThread>
-#include "proxy.h"
-#include "webtools.h"
 #include <QDebug>
 #include <QString>
+
 #include "proxy.h"
+#include "webtools.h"
 
 namespace Ui {
 class MainWindow;

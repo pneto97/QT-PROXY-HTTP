@@ -19,9 +19,9 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(this, SIGNAL(sendRequestAndReply(QString,QString)), &proxy, SLOT(on_buttonPressed(QString,QString)), Qt::QueuedConnection);
 
     //conecta botao à acão de liberar o spider
-    connect(this, SIGNAL(unlockSpider()), &webtools, SLOT(on_buttonPressed()), Qt::QueuedConnection);
+    //connect(this, SIGNAL(unlockSpider()), &webtools, SLOT(on_buttonPressed()), Qt::QueuedConnection);
 
-    //conecta botao à acão de liberar o spider
+    //interface do Spider mostra os nós da árvore
     connect(&webtools, SIGNAL(nodeSpider(QString)), this, SLOT(on_nodeSpider(QString)), Qt::QueuedConnection);
 
     //ao enviar o request, desabilita o botao e a edicao do request
@@ -60,7 +60,7 @@ void MainWindow::setScreen(ScreenName screenName){
     switch(screenName){
 
         case ScreenName::PROXY:
-            qDebug() << "Proxy";
+           qDebug() << "Proxy";
 
            ui->plainTextEdit->setPlainText("");
            ui->plainTextEdit_2->setPlainText("");
@@ -80,7 +80,7 @@ void MainWindow::setScreen(ScreenName screenName){
 
             webtools.doSetup(webtoolsThread, Operation::SPIDER);
             webtools.moveToThread(&webtoolsThread);
-            webtoolsThread.start();
+            //webtoolsThread.start();
             break;
 
         case ScreenName::DUMP:
@@ -179,5 +179,7 @@ void MainWindow::on_pushButton_clicked()
 void MainWindow::on_pushButton_2_clicked()
 {
     qDebug() << "clicou2";
-    emit unlockSpider();
+    //emit unlockSpider();
+    webtoolsThread.start();
+
 }
