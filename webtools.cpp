@@ -108,7 +108,6 @@ void WebTools::runSpider(){
     //string url = this->getUrl();
     //int depth = this->getDepth();
     waitButton();
-    qDebug() << "vai";
 
     qDebug() << QString::fromStdString(this->url);
     qDebug() << this->depth;
@@ -235,9 +234,10 @@ bool WebTools::downloadPage(string url, string fileName){
 
 void WebTools::runDump(){
 
-    string url = "http://www.linuxhowtos.org/";
+   // string url = "http://www.linuxhowtos.org/";
     //string url = "http://www.ba.gov.br/";
-    int depth = 1;
+    //int depth = 1;
+    waitButton();
 
     vector <string> paths;
 

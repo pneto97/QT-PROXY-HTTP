@@ -188,7 +188,7 @@ void MainWindow::on_pushButton_2_clicked()
     //emit sendUrlAndDepth("http://www.linuxhowtos.org/", "1" ); //Não funciona
 
     webtoolsThread.start();
-    emit sendUrlAndDepth(ui->textEdit->toPlainText(), ui->textEdit_3->toPlainText()); //Não funciona
+    emit sendUrlAndDepth(ui->textEdit->toPlainText(), ui->textEdit_3->toPlainText());
     //qDebug() << ui->textEdit->toPlainText();
     //qDebug() << ui->textEdit_3->toPlainText();
 
@@ -199,4 +199,5 @@ void MainWindow::on_pushButton_3_clicked()
     qDebug() << "clicouDump";
     //emit sendUrlAndDepth(ui->textEdit_2->toPlainText(), "1" ); //adicionar campo depth na tela do dump?? //Não funciona
     webtoolsThread.start();
+    emit sendUrlAndDepth(ui->textEdit_2->toPlainText(), ui->textEdit_4->toPlainText());
 }

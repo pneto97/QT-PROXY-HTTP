@@ -65,6 +65,8 @@ public:
     QHBoxLayout *horizontalLayout_7;
     QLabel *label_2;
     QTextEdit *textEdit_2;
+    QLabel *label_4;
+    QTextEdit *textEdit_4;
     QPushButton *pushButton_3;
     QSpacerItem *verticalSpacer;
     QToolBar *mainToolBar;
@@ -178,6 +180,7 @@ public:
 
         label_3 = new QLabel(page_2);
         label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setMaximumSize(QSize(60, 30));
         label_3->setAlignment(Qt::AlignCenter);
 
         horizontalLayout_5->addWidget(label_3);
@@ -186,7 +189,7 @@ public:
         textEdit_3->setObjectName(QString::fromUtf8("textEdit_3"));
         sizePolicy1.setHeightForWidth(textEdit_3->sizePolicy().hasHeightForWidth());
         textEdit_3->setSizePolicy(sizePolicy1);
-        textEdit_3->setMinimumSize(QSize(1, 25));
+        textEdit_3->setMinimumSize(QSize(25, 25));
         textEdit_3->setMaximumSize(QSize(60, 30));
         textEdit_3->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 
@@ -263,10 +266,27 @@ public:
 
         textEdit_2 = new QTextEdit(page_3);
         textEdit_2->setObjectName(QString::fromUtf8("textEdit_2"));
-        textEdit_2->setMinimumSize(QSize(0, 25));
+        textEdit_2->setMinimumSize(QSize(1, 25));
         textEdit_2->setMaximumSize(QSize(16777215, 30));
 
         horizontalLayout_7->addWidget(textEdit_2);
+
+        label_4 = new QLabel(page_3);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setAlignment(Qt::AlignCenter);
+
+        horizontalLayout_7->addWidget(label_4);
+
+        textEdit_4 = new QTextEdit(page_3);
+        textEdit_4->setObjectName(QString::fromUtf8("textEdit_4"));
+        sizePolicy1.setHeightForWidth(textEdit_4->sizePolicy().hasHeightForWidth());
+        textEdit_4->setSizePolicy(sizePolicy1);
+        textEdit_4->setMinimumSize(QSize(25, 25));
+        textEdit_4->setMaximumSize(QSize(60, 30));
+        textEdit_4->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+        textEdit_4->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+
+        horizontalLayout_7->addWidget(textEdit_4);
 
         pushButton_3 = new QPushButton(page_3);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
@@ -282,7 +302,7 @@ public:
 
         horizontalLayout_7->setStretch(0, 1);
         horizontalLayout_7->setStretch(1, 13);
-        horizontalLayout_7->setStretch(2, 2);
+        horizontalLayout_7->setStretch(4, 2);
 
         verticalLayout_4->addLayout(horizontalLayout_7);
 
@@ -312,7 +332,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(1);
+        stackedWidget->setCurrentIndex(2);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -329,7 +349,8 @@ public:
         label_3->setText(QApplication::translate("MainWindow", "Depth:", nullptr));
         pushButton_2->setText(QApplication::translate("MainWindow", "spider", nullptr));
         plainTextEdit_3->setPlainText(QString());
-        label_2->setText(QApplication::translate("MainWindow", "URL", nullptr));
+        label_2->setText(QApplication::translate("MainWindow", "URL:", nullptr));
+        label_4->setText(QApplication::translate("MainWindow", "Depth", nullptr));
         pushButton_3->setText(QApplication::translate("MainWindow", "Dump", nullptr));
     } // retranslateUi
 
