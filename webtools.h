@@ -38,13 +38,19 @@ public:
     void doSetup(QThread &cThread, Operation op);
     void stop();
 
+    string getUrl(){
+        return this->url;
+    }
+    int getDepth(){
+        return this->depth;
+    }
 
 private:
     bool stopFlag;
     bool buttonFlag;
 
-    //int depth;
-    //string url;
+    int depth;
+    string url;
 
     void waitButton();
 
@@ -60,7 +66,7 @@ signals:
 public slots:
     void runSpider();
     void runDump();
-    void on_buttonPressed();
+    void on_buttonPressed(QString, QString);
 };
 
 #endif // WEBTOOLS_H

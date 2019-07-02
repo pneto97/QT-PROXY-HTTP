@@ -18,6 +18,9 @@ MainWindow::MainWindow(QWidget *parent) :
     //conecta botao à acão do proxy
     connect(this, SIGNAL(sendRequestAndReply(QString,QString)), &proxy, SLOT(on_buttonPressed(QString,QString)), Qt::QueuedConnection);
 
+    //conecta botao a acão do spider/dump
+    connect(this, SIGNAL(sendUrlAndDepth(QString,QString)), &webtools, SLOT(on_buttonPressed(QString,QString)), Qt::QueuedConnection);
+
     //conecta botao à acão de liberar o spider
     //connect(this, SIGNAL(unlockSpider()), &webtools, SLOT(on_buttonPressed()), Qt::QueuedConnection);
 
@@ -92,7 +95,7 @@ void MainWindow::setScreen(ScreenName screenName){
 
             webtools.doSetup(webtoolsThread, Operation::DUMP);
             webtools.moveToThread(&webtoolsThread);
-            webtoolsThread.start();
+            //webtoolsThread.start();
             break;
     }
 
@@ -179,9 +182,17 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    qDebug() << "clicou2";
+    qDebug() << "clicouSpider";
     ui->plainTextEdit_3->setPlainText("");
-    //emit unlockSpider();
+    //emit sendUrlAndDepth("http://www.linuxhowtos.org/", "1" ); //Não funciona
+    //emit sendUrlAndDepth(ui->textEdit->toPlainText(), ui->textEdit_3->toPlainText()); //Não funciona
     webtoolsThread.start();
 
+}
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    qDebug() << "clicouDump";
+    //emit sendUrlAndDepth(ui->textEdit_2->toPlainText(), "1" ); //adicionar campo depth na tela do dump?? //Não funciona
+    webtoolsThread.start();
 }

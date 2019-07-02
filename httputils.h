@@ -62,5 +62,6 @@ string extractHost(string);
 string extractPath(string);
 string extractDirectory(string);
 string extractFileName(string);
+string fixLinks(string);
 
 #endif

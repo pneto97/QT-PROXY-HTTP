@@ -59,7 +59,7 @@ void WebTools::spider(vector<string>& paths, string url, int depth){
     }
 
     string response(response_bytes.begin() , response_bytes.end());
-    cout << response;
+    //cout << response;
 
     findPaths(paths, response, extractHost(url));
 
@@ -104,6 +104,9 @@ void WebTools::spider(vector<string>& paths, string url, int depth){
 
 
 void WebTools::runSpider(){
+
+    //string url = this->getUrl();
+    //int depth = this->getDepth();
 
     string url = "http://www.linuxhowtos.org/";
     //string url = "http://www.ba.gov.br/";
@@ -191,24 +194,19 @@ bool WebTools::downloadPage(string url, string fileName){
 
         FILE * fp = fopen(fileName.c_str(),"w+");
 
-
-
         for (unsigned int i = 0; i < respDataSize; i++){
             fwrite(&respDataCstr[i], 1, sizeof(char), fp);
         }
 
-
         fclose(fp);
 
         close(serverSock);
-
 
     } else{ //se for binário, apenas escreve
 
 
         // vector<char> response_data(response.begin() + data_start, response.end());
         vector<char> response_data(response.begin() + data_start, response.end());
-
 
         //vector<char> respData;
         unsigned int respDataSize = response_data.size();
@@ -226,7 +224,6 @@ bool WebTools::downloadPage(string url, string fileName){
     }
 
     return true;
-
 }
 
 
@@ -252,27 +249,13 @@ void WebTools::runDump(){
 
     }
 
-    /*
-    stopFlag = false;
-
-    for (int i = 0; i < 100; i++) {
-
-        qDebug() << "dump " << i;
-        QThread::msleep(30);
-
-
-        if(this->stopFlag == true) {
-            stopFlag = false;
-            break;
-        }
-
-    }
-    */
     this->thread()->quit();
 }
 
 
-void WebTools::on_buttonPressed(){
-
+void WebTools::on_buttonPressed(QString url, QString depth){
+    qDebug("entrou set url/depth");
     this->buttonFlag = true;
+    this->url = url.toStdString();
+    this->depth = depth.toInt();
 }

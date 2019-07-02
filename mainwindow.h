@@ -29,7 +29,8 @@ public:
     ~MainWindow();
 
 signals:
-    void sendRequestAndReply(QString,QString);
+    void sendRequestAndReply(QString, QString);
+    void sendUrlAndDepth(QString, QString);
     void unlockSpider();
 
 private slots:
@@ -42,6 +43,8 @@ private slots:
     void on_pushButton_clicked();
 
     void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
 
 public slots:
     void on_textReceived(QString );

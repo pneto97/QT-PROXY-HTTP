@@ -377,3 +377,66 @@ string extractFileName(string url){
 
     return lastPath;
 }
+
+
+string fixLinks(string response){
+
+    int qtd = 0;
+    int positionHref = 0;
+    int positionQ1 = 0;
+    int positionQ2 = 0;
+    string currentLink = "";
+    string fixedLink = "";
+    string fixedResp = response;
+
+    while((positionHref = fixedResp.find("href=\"", positionHref+1) ) != string::npos){
+
+        qtd++;
+        //positionHref = response.find("href", positionHref+1);
+        positionQ1 = fixedResp.find("\"",positionHref+1) + 1;
+        positionQ2 = fixedResp.find("\"",positionQ1 + 1);
+
+        currentLink = fixedResp.substr(positionQ1, positionQ2 - positionQ1);
+        //currentLink = fixUrl(currentLink, "www.linuxhowtos.org");
+
+        //cout << "pegou o link " + extractHost(currentLink) << endl;
+
+
+        if(currentLink[0] == '/'){
+            //cout << "antes: " + currentLink + " depois: ." + currentLink << endl;
+            fixedResp.replace(positionQ1, positionQ2 - positionQ1, "." + currentLink);
+        } else if(currentLink.find("http") != string::npos){ // se for http, volta para o dir anterior e pega o host certo
+
+           // cout << "antes: " + currentLink + " depois: ../" + extractHost(currentLink) + extractPath(currentLink) << endl;
+
+            fixedResp.replace(positionQ1, positionQ2 - positionQ1, "../" + extractHost(currentLink) + extractPath(currentLink));
+
+
+        }
+
+    }
+
+
+    while((positionHref = fixedResp.find("src=\"", positionHref+1) ) != string::npos){
+
+        qtd++;
+        //positionHref = response.find("href", positionHref+1);
+        positionQ1 = fixedResp.find("\"",positionHref+1) + 1;
+        positionQ2 = fixedResp.find("\"",positionQ1 + 1);
+
+        currentLink = fixedResp.substr(positionQ1, positionQ2 - positionQ1);
+        //currentLink = fixUrl(currentLink, "www.linuxhowtos.org");
+
+        if(currentLink[0] == '/'){
+            fixedResp.replace(positionQ1, positionQ2 - positionQ1, "." + currentLink);
+        } else if(currentLink.find("http") != string::npos){ // se for http, volta para o dir anterior e pega o host certo
+
+            fixedResp.replace(positionQ1, positionQ2 - positionQ1, "../" + extractHost(currentLink) + extractPath(currentLink));
+            //cout << "../" + extractHost(currentLink) + extractPath(currentLink) << endl;
+        }
+
+    }
+
+    return fixedResp;
+
+}
