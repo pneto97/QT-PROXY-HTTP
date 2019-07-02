@@ -24,6 +24,7 @@
 #include <iostream>
 #include <unistd.h>*/
 #include "httputils.h"
+#include <QApplication>
 
 #define MAX_BUFFER_SIZE 10000
 
@@ -44,6 +45,7 @@ private:
     bool buttonFlag;
     string request = "";
     QString reply = "";
+    QStringList mainArgs = QApplication::arguments();
     //string reply = "";
 
     void waitButton();

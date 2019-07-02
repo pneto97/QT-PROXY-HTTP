@@ -74,7 +74,13 @@ void Proxy::doWork(){
 
     stopFlag = false;
 
-    const char* port = "8228";
+    //const char* port = "8228";
+    string port = "8228";
+    if (mainArgs.size() == 3){
+        port = mainArgs[2].toStdString();
+    }
+
+
     int sockfd, clisockfd;
     int clilen = sizeof(struct sockaddr);
     int opt = 1;
@@ -103,7 +109,7 @@ void Proxy::doWork(){
 
     memset(&serv_addr , 0 , sizeof(serv_addr));
 
-    int portno = atoi(port);
+    int portno = atoi(port.c_str());
     serv_addr.sin_family = AF_INET;     // ip4 family
     serv_addr.sin_addr.s_addr = INADDR_ANY;  // represents for localhost i.e 127.0.0.1
     serv_addr.sin_port = htons(portno);
@@ -222,7 +228,6 @@ void Proxy::doWork(){
     ::close(sockfd);
 
     //waitButton();
-    //qDebug() << "ASHDAUISDHUISA";
 
 
     this->thread()->quit();
@@ -236,18 +241,3 @@ void Proxy::on_buttonPressed(QString request, QString reply){
     this->reply = reply;
 
 }
-
-
-/*void Proxy::doWork(){
-    stopFlag = false;
-    QString testReq = "TESTE REQUISICAO";
-
-    this->thread()->quit();
-}*/
-
-
-/*void Proxy::close_sockets(){
-    close(fd_client);
-    close(fd_server);
-}*/
-
