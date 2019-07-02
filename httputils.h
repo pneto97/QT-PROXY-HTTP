@@ -50,9 +50,17 @@ class Request{
     //    string headerFields; 
 };
 
+int initServerSocket(string);
 int sendData(string, int);
-string sendGet(int* serverSock,string host, string uri);
+int sendDataChar(char*, int, int);
+
+vector<char> sendGet(int* serverSock,string host, string uri);
 string fixUrl(string str, string host);
 int findPaths(std::vector<string>& paths, std::string response, string host);
+
+string extractHost(string);
+string extractPath(string);
+string extractDirectory(string);
+string extractFileName(string);
 
 #endif

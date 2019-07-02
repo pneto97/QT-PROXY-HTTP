@@ -78,6 +78,7 @@ void MainWindow::setScreen(ScreenName screenName){
             if(webtoolsThread.isRunning())
                 webtoolsThread.wait();
 
+            ui->plainTextEdit_3->setPlainText("");
             webtools.doSetup(webtoolsThread, Operation::SPIDER);
             webtools.moveToThread(&webtoolsThread);
             //webtoolsThread.start();

@@ -56,51 +56,14 @@ void WebTools::runSpider(){
     string reply = "";
 
 
-    struct sockaddr_in serv_addr;
-    struct sockaddr cli_addr;
-    /*
-    if(argc<2){
-       fprintf(stderr,"Insira uma porta!\n");
-       exit(1);
-    }*/
-
-    sockfd = socket(AF_INET, SOCK_STREAM, 0); //cria o socket
-
-    if(sockfd < 0){
-
-       fprintf(stderr,"Socket não foi criado\n");
-       exit(1);
-    }
-
-    // Set the socket options
-    if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,
-       &opt, sizeof(opt))) {
-
-       fprintf(stderr,"Erro na configuracao do socket\n");
-       exit(1);
-    }
-
-    memset(&serv_addr , 0 , sizeof(serv_addr));
-
-    //int portno = atoi(argv[1]);
-    int portno = 8228;
-    serv_addr.sin_family = AF_INET;     // ip4 family
-    serv_addr.sin_addr.s_addr = INADDR_ANY;  // represents for localhost i.e 127.0.0.1
-    serv_addr.sin_port = htons(portno);
-
-    if(bind(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr)) < 0){
-       fprintf(stderr,"Erro no binding");
-       exit(1);
-    }
-
-    //client estabelecido
+    //server socket
+    int serverSock = 0;
 
     string uri = "/";
     string host = "www.linuxhowtos.org";
     //string host = "www.ba.gov.br";
-    int depth = 1;
-    //server socket
-    int serverSock = 0;
+    int depth = 2;
+
 
     //string response = sendGet(&serverSock, host , uri);
     //string response = sendGet(&serverSock, "linuxhowtos.org" , "/");
@@ -111,21 +74,12 @@ void WebTools::runSpider(){
     vector<string> paths;
 
     findPaths(paths, response, host);
-    int tst = 0;
-
-    // for(vector<string>::iterator it = paths.begin() ; it != paths.end() ; it ++){
-    //     cout << *it << endl;
-    // }
 
     for(int i = 1 ; i < depth ; i++){
 
        vector<string> pathsCpy(paths);
 
-       // for(vector<string>::iterator it = pathsCpy.begin() ; it != pathsCpy.end() ; it ++){
-       //     cout << *it << endl;
-       // }
-
-       for(int j = 0 ; j < pathsCpy.size() ; j++){
+       for(int j = 0; j < pathsCpy.size(); j++){
            if(pathsCpy[j][0] == '/'){
                if( (pathsCpy[j].find(".") == std::string::npos) || (pathsCpy[j].find(".htm") != std::string::npos) || (pathsCpy[j].find(".php") != std::string::npos)){
 
@@ -160,6 +114,7 @@ void WebTools::runSpider(){
     ::close(sockfd);
 
     this->thread()->quit();
+
     /*stopFlag = false;
 
     for (int i = 0; i < 100; i++) {

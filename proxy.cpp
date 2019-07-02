@@ -132,7 +132,7 @@ void Proxy::doWork(){
             fprintf(stderr,"Erro ao aceitar o request\n");
         }
 
-        //recebe o request do browser e motna a string "request"
+        //recebe o request do browser e monta a string "request"
         while(request.find("\r\n\r\n") == std::string::npos){
 
             memset(buffer, 0 , sizeof(buffer));
@@ -165,7 +165,7 @@ void Proxy::doWork(){
             continue;
         }
 
-        //Informa para a gui que  orequest foi recebido e o manda
+        //Informa para a gui que o request foi recebido e o manda
         emit requestReceived(GUIRequest);
 
         //trava de execucao do thread ate apertar o botao
@@ -233,7 +233,6 @@ void Proxy::on_buttonPressed(QString request, QString reply){
 
     this->buttonFlag = true;
     this->request = request.replace("\n","\r\n").toStdString();
-
     this->reply = reply;
 
 }
