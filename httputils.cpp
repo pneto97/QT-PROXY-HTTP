@@ -57,25 +57,30 @@ int initServerSocket(string host){
     hints.ai_socktype = SOCK_STREAM;
 
     if (getaddrinfo(host.c_str(), port, &hints, &res) != 0) {
-    //if (getaddrinfo("linuxhowtos.org", porta, &hints, &res) != 0) {
-        fprintf (stderr," Erro no formato do endereco do servidor! \n");
-        exit (1);
-    }
+        //if (getaddrinfo("linuxhowtos.org", porta, &hints, &res) != 0) {
 
-    if ((serverFd = socket(res->ai_family, res->ai_socktype, res->ai_protocol)) < 0) {
-        fprintf (stderr," Erro ao criar socket para o servidor! \n");
-        exit (1);
-    }
+            fprintf (stderr," Erro no formato do endereco do servidor! \n");
+            //exit (1);
+            throw "Erro na resolução DNS";
+            exit(1);
+        }
 
-    if (connect(serverFd, res->ai_addr, res->ai_addrlen) < 0) {
-        fprintf (stderr," Erro ao conectar com o servidor ! \n");
-        exit (1);
-    }
+        if ((serverFd = socket(res->ai_family, res->ai_socktype, res->ai_protocol)) < 0) {
+            fprintf (stderr," Erro ao criar socket para o servidor! \n");
+            exit (1);
+        }
 
-    freeaddrinfo(res);
-//    free(addr);
+        if (connect(serverFd, res->ai_addr, res->ai_addrlen) < 0) {
+            fprintf (stderr," Erro ao conectar com o servidor ! \n");
 
-    return serverFd;
+            throw "Erro ao conectar com o servidor";
+            exit (1);
+        }
+
+        freeaddrinfo(res);
+    //    free(addr);
+
+        return serverFd;
 }
 
 
@@ -164,7 +169,7 @@ int sendDataChar(char* data, int size, int sock){
 }*/
 
 
-vector<char> sendGet(int* serverSock,string host, string uri){
+vector<char> sendGet(int* serverSock, string host, string uri){
 
     unsigned int buffer_size = 102400;
     unsigned int recvTotal = 0;
@@ -317,7 +322,7 @@ string extractHost(string url){
 
     string host(url.begin()+pos1, url.begin()+pos2);
 
-
+    //cout << "host " << host << endl;
     return host;
 }
 
@@ -332,7 +337,7 @@ string extractPath(string url){
 
     string path(url.begin()+pos2, url.end());
 
-
+    //cout << "path " << path << endl;
     return path;
 }
 

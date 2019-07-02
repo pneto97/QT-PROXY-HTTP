@@ -38,6 +38,7 @@ public:
     void doSetup(QThread &cThread, Operation op);
     void stop();
 
+
 private:
     bool stopFlag;
     bool buttonFlag;
@@ -46,6 +47,10 @@ private:
     //string url;
 
     void waitButton();
+
+    void spider(vector<string>& paths, string url, int depth);
+    void dumpURL(string url);
+    bool downloadPage(string url, string fileName);
 
 
 signals:

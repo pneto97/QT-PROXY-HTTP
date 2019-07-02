@@ -180,6 +180,7 @@ void MainWindow::on_pushButton_clicked()
 void MainWindow::on_pushButton_2_clicked()
 {
     qDebug() << "clicou2";
+    ui->plainTextEdit_3->setPlainText("");
     //emit unlockSpider();
     webtoolsThread.start();
 
