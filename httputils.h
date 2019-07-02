@@ -25,6 +25,7 @@
 #include <sstream>
 #include <iostream>
 #include <unistd.h>
+#include <QDir>
 #define MAX_BUFFER_SIZE 10000
 
 

@@ -187,7 +187,7 @@ bool WebTools::downloadPage(string url, string fileName){
         string response_data_str(response.begin() + data_start, data_end_it);
 
 
-       // response_data_str = fixLinks(response_data_str);
+        response_data_str = fixLinks(response_data_str);
 
         unsigned int respDataSize = response_data_str.size();
         const char* respDataCstr = response_data_str.data();
@@ -238,6 +238,7 @@ void WebTools::runDump(){
     //string url = "http://www.ba.gov.br/";
     //int depth = 1;
     waitButton();
+
 
     vector <string> paths;
 

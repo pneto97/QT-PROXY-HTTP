@@ -403,13 +403,22 @@ string fixLinks(string response){
 
 
         if(currentLink[0] == '/'){
-            //cout << "antes: " + currentLink + " depois: ." + currentLink << endl;
-            fixedResp.replace(positionQ1, positionQ2 - positionQ1, "." + currentLink);
+
+            string newPath = "." + currentLink;
+            string fileName = extractFileName(newPath);
+            if(fileName.find(".") == std::string::npos){
+                newPath += ".html";
+            }
+            fixedResp.replace(positionQ1, positionQ2 - positionQ1, newPath);
         } else if(currentLink.find("http") != string::npos){ // se for http, volta para o dir anterior e pega o host certo
 
            // cout << "antes: " + currentLink + " depois: ../" + extractHost(currentLink) + extractPath(currentLink) << endl;
-
-            fixedResp.replace(positionQ1, positionQ2 - positionQ1, "../" + extractHost(currentLink) + extractPath(currentLink));
+            string newPath = QDir::currentPath().toStdString() + "/" + extractHost(currentLink) + extractPath(currentLink);
+            string fileName = extractFileName(newPath);
+            if(fileName.find(".") == std::string::npos){
+                newPath += ".html";
+            }
+            fixedResp.replace(positionQ1, positionQ2 - positionQ1, newPath);
 
 
         }

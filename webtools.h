@@ -5,6 +5,7 @@
 #include <QString>
 #include <QThread>
 #include <QDebug>
+#include <QDir>
 
 /*#include <stdio.h>
 #include <stdlib.h>
