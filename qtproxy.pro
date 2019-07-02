@@ -44,3 +44,9 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+#DESTDIR = %{sourceDir}/outDir
+#OBJECTS_DIR = %{sourceDir}/outDir/obj
+#MOC_DIR = %{sourceDir}/outDir/moc
+#RCC_DIR = %{sourceDir}/outDir/rcc
+#UI_DIR = %{sourceDir}/outDir/ui

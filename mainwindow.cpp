@@ -19,6 +19,7 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(this, SIGNAL(sendRequestAndReply(QString,QString)), &proxy, SLOT(on_buttonPressed(QString,QString)), Qt::QueuedConnection);
 
     //conecta botao a acão do spider/dump
+
     connect(this, SIGNAL(sendUrlAndDepth(QString,QString)), &webtools, SLOT(on_buttonPressed(QString,QString)), Qt::QueuedConnection);
 
     //conecta botao à acão de liberar o spider
@@ -185,8 +186,11 @@ void MainWindow::on_pushButton_2_clicked()
     qDebug() << "clicouSpider";
     ui->plainTextEdit_3->setPlainText("");
     //emit sendUrlAndDepth("http://www.linuxhowtos.org/", "1" ); //Não funciona
-    //emit sendUrlAndDepth(ui->textEdit->toPlainText(), ui->textEdit_3->toPlainText()); //Não funciona
+
     webtoolsThread.start();
+    emit sendUrlAndDepth(ui->textEdit->toPlainText(), ui->textEdit_3->toPlainText()); //Não funciona
+    //qDebug() << ui->textEdit->toPlainText();
+    //qDebug() << ui->textEdit_3->toPlainText();
 
 }
 

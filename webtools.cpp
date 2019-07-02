@@ -4,6 +4,7 @@
 WebTools::WebTools(QObject *parent) : QObject(parent)
 {
     stopFlag = false;
+    buttonFlag = false;
 }
 
 void WebTools::doSetup(QThread &cThread, Operation op){
@@ -104,13 +105,18 @@ void WebTools::spider(vector<string>& paths, string url, int depth){
 
 
 void WebTools::runSpider(){
-
     //string url = this->getUrl();
     //int depth = this->getDepth();
+    waitButton();
+    qDebug() << "vai";
 
-    string url = "http://www.linuxhowtos.org/";
+    qDebug() << QString::fromStdString(this->url);
+    qDebug() << this->depth;
+
+  //  this->url = "http://www.linuxhowtos.org/";
     //string url = "http://www.ba.gov.br/";
-    int depth = 1;
+  //  this->depth = 1;
+
 
     vector<string> paths;
 
@@ -255,7 +261,9 @@ void WebTools::runDump(){
 
 void WebTools::on_buttonPressed(QString url, QString depth){
     qDebug("entrou set url/depth");
-    this->buttonFlag = true;
+
     this->url = url.toStdString();
     this->depth = depth.toInt();
+
+    this->buttonFlag = true;
 }
