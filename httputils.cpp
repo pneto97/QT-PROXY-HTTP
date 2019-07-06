@@ -3,6 +3,8 @@
 Request::Request(string req){
     this->parse(req);
 }
+
+//pega o metodo, uri, versao do http e host
 void Request::parse(string req){
     this->req = req;
 
@@ -57,30 +59,30 @@ int initServerSocket(string host){
     hints.ai_socktype = SOCK_STREAM;
 
     if (getaddrinfo(host.c_str(), port, &hints, &res) != 0) {
-        //if (getaddrinfo("linuxhowtos.org", porta, &hints, &res) != 0) {
+    //if (getaddrinfo("linuxhowtos.org", porta, &hints, &res) != 0) {
 
-            fprintf (stderr," Erro no formato do endereco do servidor! \n");
-            //exit (1);
-            throw "Erro na resolução DNS";
-            exit(1);
-        }
+        fprintf (stderr," Erro no formato do endereco do servidor! \n");
+        //exit (1);
+        throw "Erro na resolução DNS";
+        exit(1);
+    }
 
-        if ((serverFd = socket(res->ai_family, res->ai_socktype, res->ai_protocol)) < 0) {
-            fprintf (stderr," Erro ao criar socket para o servidor! \n");
-            exit (1);
-        }
+    if ((serverFd = socket(res->ai_family, res->ai_socktype, res->ai_protocol)) < 0) {
+        fprintf (stderr," Erro ao criar socket para o servidor! \n");
+        exit (1);
+    }
 
-        if (connect(serverFd, res->ai_addr, res->ai_addrlen) < 0) {
-            fprintf (stderr," Erro ao conectar com o servidor ! \n");
+    if (connect(serverFd, res->ai_addr, res->ai_addrlen) < 0) {
+        fprintf (stderr," Erro ao conectar com o servidor ! \n");
 
-            throw "Erro ao conectar com o servidor";
-            exit (1);
-        }
+        throw "Erro ao conectar com o servidor";
+        exit (1);
+    }
 
-        freeaddrinfo(res);
-    //    free(addr);
+    freeaddrinfo(res);
+//    free(addr);
 
-        return serverFd;
+    return serverFd;
 }
 
 
@@ -134,40 +136,6 @@ int sendDataChar(char* data, int size, int sock){
         free(sendBuf);
         return sentTotal;
 }
-
-
-/*string sendGet(int* serverSock,string host, string uri){
-
-    string request = "GET " + uri + " HTTP/1.1\r\n" + "Host: "+host + "\r\n" + "Connection: close" + "\r\n\r\n";
-    cout << "request: \n" << request << endl;
-    string response = "";
-
-    *serverSock = initServerSocket(host);
-
-
-    sendData(request, *serverSock);
-
-    int recvTotal = 0;
-    int received = 0;
-    char recvBuf[MAX_BUFFER_SIZE];
-    memset(recvBuf, 0 , sizeof(recvBuf));
-
-
-    while((received = recv(*serverSock, recvBuf, MAX_BUFFER_SIZE, 0)) > 0){
-        recvBuf[received] = '\0';
-        response.append(recvBuf);
-        memset(recvBuf, 0 , sizeof(recvBuf));
-    }
-
-    if(received < 0){
-        fprintf (stderr,"Erro ao receber do servidor. \n");
-        exit (1);
-    }
-
-
-    return response;
-}*/
-
 
 vector<char> sendGet(int* serverSock, string host, string uri){
 
@@ -252,25 +220,19 @@ int findPaths(std::vector<string>& paths, std::string response, string host){
     while((positionHref = response.find("href=\"", positionHref+1) ) != string::npos){
 
         qtd++;
-        //positionHref = response.find("href", positionHref+1);
+
         positionQ1 = response.find("\"",positionHref+1) + 1;
         positionQ2 = response.find("\"",positionQ1 + 1);
 
         currentLink = response.substr(positionQ1, positionQ2 - positionQ1);
-        //currentLink.push_back('\0');
-        // cout << positionQ1 << " " << positionQ2 << " " ;
-        // cout << currentLink << endl;
+
         currentLink = fixUrl(currentLink, host);
-        // printf("%s\n",currentLink.c_str());
 
         if(std::find(paths.begin(), paths.end(), currentLink) == paths.end()){
             paths.push_back(currentLink);
         }
     }
 
-    //cout << "qtd href = "  << qtd << endl;
-
-    // cout << "foi href" << endl;
 
     positionHref = 0;
     qtd = 0;
@@ -290,10 +252,7 @@ int findPaths(std::vector<string>& paths, std::string response, string host){
             paths.push_back(currentLink);
         }
 
-        //cout << currentLink << endl;
      }
-
-    // cout << "foi src" << endl;
 
 
 
@@ -337,7 +296,6 @@ string extractPath(string url){
 
     string path(url.begin()+pos2, url.end());
 
-    //cout << "path " << path << endl;
     return path;
 }
 
@@ -352,18 +310,12 @@ string extractDirectory(string url){
     int posF = url.find_last_of("/");
 
     string dir(url.begin()+pos2, url.begin() + posF);
-    // if(dir == ""){
-    //     dir = "/";
-    // }
     return dir;
 }
 
 
 string extractFileName(string url){
 
-    // if(extractPath(url) == "/"){
-    //     return "index.html";
-    // }
     if(url.back() == '/'){
         return "index.html";
     }
@@ -371,9 +323,6 @@ string extractFileName(string url){
     int posStart = url.find_last_of("/")+1;
 
     string lastPath(url.begin() + posStart , url.end());
-
-    //extrai caso tenha ?
-   // int posFinal = max(lastPath.find("?"));
 
     return lastPath;
 }
@@ -388,20 +337,16 @@ string fixLinks(string response){
     string currentLink = "";
     string fixedLink = "";
     string fixedResp = response;
-
+    
     while((positionHref = fixedResp.find("href=\"", positionHref+1) ) != string::npos){
 
         qtd++;
-        //positionHref = response.find("href", positionHref+1);
+        //pega o que tem entre as aspas de href=""
         positionQ1 = fixedResp.find("\"",positionHref+1) + 1;
         positionQ2 = fixedResp.find("\"",positionQ1 + 1);
-
         currentLink = fixedResp.substr(positionQ1, positionQ2 - positionQ1);
-        //currentLink = fixUrl(currentLink, "www.linuxhowtos.org");
 
-        //cout << "pegou o link " + extractHost(currentLink) << endl;
-
-
+        // se for apenas um path começando com /, está no mesmo diretório (.)
         if(currentLink[0] == '/'){
 
             string newPath = "." + currentLink;
@@ -410,6 +355,7 @@ string fixLinks(string response){
                 newPath += ".html";
             }
             fixedResp.replace(positionQ1, positionQ2 - positionQ1, newPath);
+        //está num host diferente, então extrai o novo host e concatena no nome do arquivo
         } else if(currentLink.find("http") != string::npos){ // se for http, volta para o dir anterior e pega o host certo
 
            // cout << "antes: " + currentLink + " depois: ../" + extractHost(currentLink) + extractPath(currentLink) << endl;
@@ -425,7 +371,7 @@ string fixLinks(string response){
 
     }
 
-
+    //faz a mesma coisa que o procedimento acima, mas com os src ao invés de href
     while((positionHref = fixedResp.find("src=\"", positionHref+1) ) != string::npos){
 
         qtd++;

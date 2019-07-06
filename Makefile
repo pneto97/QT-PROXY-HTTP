@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = qtproxy1.0.0
-DISTDIR = /home/paulo/Documents/unb/2019-1/tr2/QT-PROXY-HTTP/.tmp/qtproxy1.0.0
+DISTDIR = /home/paulo/QT_PROXY/QT-PROXY-HTTP/.tmp/qtproxy1.0.0
 LINK          = g++
 LFLAGS        = 
 LIBS          = $(SUBLIBS) -lQt5Widgets -lQt5Gui -lQt5Core /usr/lib/libGL.so -lpthread   
@@ -76,72 +76,7 @@ DIST          = /usr/lib/qt/mkspecs/features/spec_pre.prf \
 		/usr/lib/qt/mkspecs/common/g++-base.conf \
 		/usr/lib/qt/mkspecs/common/g++-unix.conf \
 		/usr/lib/qt/mkspecs/qconfig.pri \
-		/usr/lib/qt/mkspecs/modules/qt_Attica.pri \
-		/usr/lib/qt/mkspecs/modules/qt_Baloo.pri \
-		/usr/lib/qt/mkspecs/modules/qt_BluezQt.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KActivities.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KActivitiesStats.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KArchive.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KAuth.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KBookmarks.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KCMUtils.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KCodecs.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KCompletion.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KConfigCore.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KConfigGui.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KConfigWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KCoreAddons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KCrash.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KDBusAddons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KDeclarative.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KDESu.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KDEWebKit.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KDNSSD.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KEmoticons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KFileMetaData.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KGlobalAccel.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KGuiAddons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KHolidays.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KHtml.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KI18n.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIconThemes.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIdleTime.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIOCore.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIOFileWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIOGui.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIOWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_Kirigami2.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KItemModels.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KItemViews.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KJobWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KJS.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KJSApi.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KJsEmbed.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KNewStuff.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KNewStuffCore.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KNotifications.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KNotifyConfig.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KNTLM.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KParts.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KPeople.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KPeopleWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KPlotting.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KPty.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KrossCore.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KrossUi.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KRunner.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KScreen.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KService.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KSyntaxHighlighting.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KTextEditor.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KTextWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KUnitConversion.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KWallet.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KWaylandClient.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KWaylandServer.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KWidgetsAddons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KWindowSystem.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KXmlGui.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_accessibility_support_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_bootstrap_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_concurrent.pri \
@@ -166,7 +101,6 @@ DIST          = /usr/lib/qt/mkspecs/features/spec_pre.prf \
 		/usr/lib/qt/mkspecs/modules/qt_lib_gui_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_help.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_help_private.pri \
-		/usr/lib/qt/mkspecs/modules/qt_lib_hunspellinputmethod_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_input_support_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_kms_support_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri \
@@ -221,14 +155,10 @@ DIST          = /usr/lib/qt/mkspecs/features/spec_pre.prf \
 		/usr/lib/qt/mkspecs/modules/qt_lib_svg_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_testlib.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_testlib_private.pri \
-		/usr/lib/qt/mkspecs/modules/qt_lib_texttospeech.pri \
-		/usr/lib/qt/mkspecs/modules/qt_lib_texttospeech_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_theme_support_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_uiplugin.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_uitools.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_uitools_private.pri \
-		/usr/lib/qt/mkspecs/modules/qt_lib_virtualkeyboard.pri \
-		/usr/lib/qt/mkspecs/modules/qt_lib_virtualkeyboard_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_vulkan_support_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_webchannel.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_webchannel_private.pri \
@@ -252,19 +182,11 @@ DIST          = /usr/lib/qt/mkspecs/features/spec_pre.prf \
 		/usr/lib/qt/mkspecs/modules/qt_lib_xml_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_xmlpatterns.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_xmlpatterns_private.pri \
-		/usr/lib/qt/mkspecs/modules/qt_ModemManagerQt.pri \
-		/usr/lib/qt/mkspecs/modules/qt_NetworkManagerQt.pri \
-		/usr/lib/qt/mkspecs/modules/qt_phonon4qt5.pri \
-		/usr/lib/qt/mkspecs/modules/qt_Prison.pri \
-		/usr/lib/qt/mkspecs/modules/qt_QuickAddons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_Solid.pri \
-		/usr/lib/qt/mkspecs/modules/qt_SonnetCore.pri \
-		/usr/lib/qt/mkspecs/modules/qt_SonnetUi.pri \
-		/usr/lib/qt/mkspecs/modules/qt_ThreadWeaver.pri \
 		/usr/lib/qt/mkspecs/features/qt_functions.prf \
 		/usr/lib/qt/mkspecs/features/qt_config.prf \
 		/usr/lib/qt/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/qt/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/usr/lib/qt/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/qt/mkspecs/features/toolchain.prf \
 		/usr/lib/qt/mkspecs/features/default_pre.prf \
@@ -312,72 +234,7 @@ Makefile: qtproxy.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspe
 		/usr/lib/qt/mkspecs/common/g++-base.conf \
 		/usr/lib/qt/mkspecs/common/g++-unix.conf \
 		/usr/lib/qt/mkspecs/qconfig.pri \
-		/usr/lib/qt/mkspecs/modules/qt_Attica.pri \
-		/usr/lib/qt/mkspecs/modules/qt_Baloo.pri \
-		/usr/lib/qt/mkspecs/modules/qt_BluezQt.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KActivities.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KActivitiesStats.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KArchive.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KAuth.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KBookmarks.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KCMUtils.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KCodecs.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KCompletion.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KConfigCore.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KConfigGui.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KConfigWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KCoreAddons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KCrash.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KDBusAddons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KDeclarative.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KDESu.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KDEWebKit.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KDNSSD.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KEmoticons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KFileMetaData.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KGlobalAccel.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KGuiAddons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KHolidays.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KHtml.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KI18n.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIconThemes.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIdleTime.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIOCore.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIOFileWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIOGui.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KIOWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_Kirigami2.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KItemModels.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KItemViews.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KJobWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KJS.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KJSApi.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KJsEmbed.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KNewStuff.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KNewStuffCore.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KNotifications.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KNotifyConfig.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KNTLM.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KParts.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KPeople.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KPeopleWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KPlotting.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KPty.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KrossCore.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KrossUi.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KRunner.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KScreen.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KService.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KSyntaxHighlighting.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KTextEditor.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KTextWidgets.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KUnitConversion.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KWallet.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KWaylandClient.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KWaylandServer.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KWidgetsAddons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KWindowSystem.pri \
-		/usr/lib/qt/mkspecs/modules/qt_KXmlGui.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_accessibility_support_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_bootstrap_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_concurrent.pri \
@@ -402,7 +259,6 @@ Makefile: qtproxy.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspe
 		/usr/lib/qt/mkspecs/modules/qt_lib_gui_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_help.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_help_private.pri \
-		/usr/lib/qt/mkspecs/modules/qt_lib_hunspellinputmethod_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_input_support_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_kms_support_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri \
@@ -457,14 +313,10 @@ Makefile: qtproxy.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspe
 		/usr/lib/qt/mkspecs/modules/qt_lib_svg_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_testlib.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_testlib_private.pri \
-		/usr/lib/qt/mkspecs/modules/qt_lib_texttospeech.pri \
-		/usr/lib/qt/mkspecs/modules/qt_lib_texttospeech_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_theme_support_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_uiplugin.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_uitools.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_uitools_private.pri \
-		/usr/lib/qt/mkspecs/modules/qt_lib_virtualkeyboard.pri \
-		/usr/lib/qt/mkspecs/modules/qt_lib_virtualkeyboard_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_vulkan_support_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_webchannel.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_webchannel_private.pri \
@@ -488,19 +340,11 @@ Makefile: qtproxy.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspe
 		/usr/lib/qt/mkspecs/modules/qt_lib_xml_private.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_xmlpatterns.pri \
 		/usr/lib/qt/mkspecs/modules/qt_lib_xmlpatterns_private.pri \
-		/usr/lib/qt/mkspecs/modules/qt_ModemManagerQt.pri \
-		/usr/lib/qt/mkspecs/modules/qt_NetworkManagerQt.pri \
-		/usr/lib/qt/mkspecs/modules/qt_phonon4qt5.pri \
-		/usr/lib/qt/mkspecs/modules/qt_Prison.pri \
-		/usr/lib/qt/mkspecs/modules/qt_QuickAddons.pri \
-		/usr/lib/qt/mkspecs/modules/qt_Solid.pri \
-		/usr/lib/qt/mkspecs/modules/qt_SonnetCore.pri \
-		/usr/lib/qt/mkspecs/modules/qt_SonnetUi.pri \
-		/usr/lib/qt/mkspecs/modules/qt_ThreadWeaver.pri \
 		/usr/lib/qt/mkspecs/features/qt_functions.prf \
 		/usr/lib/qt/mkspecs/features/qt_config.prf \
 		/usr/lib/qt/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/qt/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/usr/lib/qt/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/qt/mkspecs/features/toolchain.prf \
 		/usr/lib/qt/mkspecs/features/default_pre.prf \
@@ -534,72 +378,7 @@ Makefile: qtproxy.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspe
 /usr/lib/qt/mkspecs/common/g++-base.conf:
 /usr/lib/qt/mkspecs/common/g++-unix.conf:
 /usr/lib/qt/mkspecs/qconfig.pri:
-/usr/lib/qt/mkspecs/modules/qt_Attica.pri:
-/usr/lib/qt/mkspecs/modules/qt_Baloo.pri:
-/usr/lib/qt/mkspecs/modules/qt_BluezQt.pri:
-/usr/lib/qt/mkspecs/modules/qt_KActivities.pri:
-/usr/lib/qt/mkspecs/modules/qt_KActivitiesStats.pri:
-/usr/lib/qt/mkspecs/modules/qt_KArchive.pri:
-/usr/lib/qt/mkspecs/modules/qt_KAuth.pri:
-/usr/lib/qt/mkspecs/modules/qt_KBookmarks.pri:
-/usr/lib/qt/mkspecs/modules/qt_KCMUtils.pri:
-/usr/lib/qt/mkspecs/modules/qt_KCodecs.pri:
-/usr/lib/qt/mkspecs/modules/qt_KCompletion.pri:
-/usr/lib/qt/mkspecs/modules/qt_KConfigCore.pri:
-/usr/lib/qt/mkspecs/modules/qt_KConfigGui.pri:
-/usr/lib/qt/mkspecs/modules/qt_KConfigWidgets.pri:
-/usr/lib/qt/mkspecs/modules/qt_KCoreAddons.pri:
-/usr/lib/qt/mkspecs/modules/qt_KCrash.pri:
-/usr/lib/qt/mkspecs/modules/qt_KDBusAddons.pri:
-/usr/lib/qt/mkspecs/modules/qt_KDeclarative.pri:
-/usr/lib/qt/mkspecs/modules/qt_KDESu.pri:
-/usr/lib/qt/mkspecs/modules/qt_KDEWebKit.pri:
-/usr/lib/qt/mkspecs/modules/qt_KDNSSD.pri:
-/usr/lib/qt/mkspecs/modules/qt_KEmoticons.pri:
-/usr/lib/qt/mkspecs/modules/qt_KFileMetaData.pri:
-/usr/lib/qt/mkspecs/modules/qt_KGlobalAccel.pri:
-/usr/lib/qt/mkspecs/modules/qt_KGuiAddons.pri:
-/usr/lib/qt/mkspecs/modules/qt_KHolidays.pri:
-/usr/lib/qt/mkspecs/modules/qt_KHtml.pri:
-/usr/lib/qt/mkspecs/modules/qt_KI18n.pri:
-/usr/lib/qt/mkspecs/modules/qt_KIconThemes.pri:
-/usr/lib/qt/mkspecs/modules/qt_KIdleTime.pri:
-/usr/lib/qt/mkspecs/modules/qt_KIOCore.pri:
-/usr/lib/qt/mkspecs/modules/qt_KIOFileWidgets.pri:
-/usr/lib/qt/mkspecs/modules/qt_KIOGui.pri:
-/usr/lib/qt/mkspecs/modules/qt_KIOWidgets.pri:
-/usr/lib/qt/mkspecs/modules/qt_Kirigami2.pri:
-/usr/lib/qt/mkspecs/modules/qt_KItemModels.pri:
-/usr/lib/qt/mkspecs/modules/qt_KItemViews.pri:
-/usr/lib/qt/mkspecs/modules/qt_KJobWidgets.pri:
-/usr/lib/qt/mkspecs/modules/qt_KJS.pri:
-/usr/lib/qt/mkspecs/modules/qt_KJSApi.pri:
-/usr/lib/qt/mkspecs/modules/qt_KJsEmbed.pri:
-/usr/lib/qt/mkspecs/modules/qt_KNewStuff.pri:
-/usr/lib/qt/mkspecs/modules/qt_KNewStuffCore.pri:
-/usr/lib/qt/mkspecs/modules/qt_KNotifications.pri:
-/usr/lib/qt/mkspecs/modules/qt_KNotifyConfig.pri:
-/usr/lib/qt/mkspecs/modules/qt_KNTLM.pri:
-/usr/lib/qt/mkspecs/modules/qt_KParts.pri:
-/usr/lib/qt/mkspecs/modules/qt_KPeople.pri:
-/usr/lib/qt/mkspecs/modules/qt_KPeopleWidgets.pri:
-/usr/lib/qt/mkspecs/modules/qt_KPlotting.pri:
-/usr/lib/qt/mkspecs/modules/qt_KPty.pri:
-/usr/lib/qt/mkspecs/modules/qt_KrossCore.pri:
-/usr/lib/qt/mkspecs/modules/qt_KrossUi.pri:
-/usr/lib/qt/mkspecs/modules/qt_KRunner.pri:
-/usr/lib/qt/mkspecs/modules/qt_KScreen.pri:
-/usr/lib/qt/mkspecs/modules/qt_KService.pri:
 /usr/lib/qt/mkspecs/modules/qt_KSyntaxHighlighting.pri:
-/usr/lib/qt/mkspecs/modules/qt_KTextEditor.pri:
-/usr/lib/qt/mkspecs/modules/qt_KTextWidgets.pri:
-/usr/lib/qt/mkspecs/modules/qt_KUnitConversion.pri:
-/usr/lib/qt/mkspecs/modules/qt_KWallet.pri:
-/usr/lib/qt/mkspecs/modules/qt_KWaylandClient.pri:
-/usr/lib/qt/mkspecs/modules/qt_KWaylandServer.pri:
-/usr/lib/qt/mkspecs/modules/qt_KWidgetsAddons.pri:
-/usr/lib/qt/mkspecs/modules/qt_KWindowSystem.pri:
-/usr/lib/qt/mkspecs/modules/qt_KXmlGui.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_accessibility_support_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_bootstrap_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_concurrent.pri:
@@ -624,7 +403,6 @@ Makefile: qtproxy.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspe
 /usr/lib/qt/mkspecs/modules/qt_lib_gui_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_help.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_help_private.pri:
-/usr/lib/qt/mkspecs/modules/qt_lib_hunspellinputmethod_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_input_support_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_kms_support_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri:
@@ -679,14 +457,10 @@ Makefile: qtproxy.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspe
 /usr/lib/qt/mkspecs/modules/qt_lib_svg_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_testlib.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_testlib_private.pri:
-/usr/lib/qt/mkspecs/modules/qt_lib_texttospeech.pri:
-/usr/lib/qt/mkspecs/modules/qt_lib_texttospeech_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_theme_support_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_uiplugin.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_uitools.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_uitools_private.pri:
-/usr/lib/qt/mkspecs/modules/qt_lib_virtualkeyboard.pri:
-/usr/lib/qt/mkspecs/modules/qt_lib_virtualkeyboard_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_vulkan_support_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_webchannel.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_webchannel_private.pri:
@@ -710,19 +484,11 @@ Makefile: qtproxy.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt/mkspe
 /usr/lib/qt/mkspecs/modules/qt_lib_xml_private.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_xmlpatterns.pri:
 /usr/lib/qt/mkspecs/modules/qt_lib_xmlpatterns_private.pri:
-/usr/lib/qt/mkspecs/modules/qt_ModemManagerQt.pri:
-/usr/lib/qt/mkspecs/modules/qt_NetworkManagerQt.pri:
-/usr/lib/qt/mkspecs/modules/qt_phonon4qt5.pri:
-/usr/lib/qt/mkspecs/modules/qt_Prison.pri:
-/usr/lib/qt/mkspecs/modules/qt_QuickAddons.pri:
-/usr/lib/qt/mkspecs/modules/qt_Solid.pri:
-/usr/lib/qt/mkspecs/modules/qt_SonnetCore.pri:
-/usr/lib/qt/mkspecs/modules/qt_SonnetUi.pri:
-/usr/lib/qt/mkspecs/modules/qt_ThreadWeaver.pri:
 /usr/lib/qt/mkspecs/features/qt_functions.prf:
 /usr/lib/qt/mkspecs/features/qt_config.prf:
 /usr/lib/qt/mkspecs/linux-g++/qmake.conf:
 /usr/lib/qt/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /usr/lib/qt/mkspecs/features/exclusive_builds.prf:
 /usr/lib/qt/mkspecs/features/toolchain.prf:
 /usr/lib/qt/mkspecs/features/default_pre.prf:
@@ -804,19 +570,19 @@ moc_mainwindow.cpp: mainwindow.h \
 		webtools.h \
 		moc_predefs.h \
 		/usr/bin/moc
-	/usr/bin/moc $(DEFINES) --include /home/paulo/Documents/unb/2019-1/tr2/QT-PROXY-HTTP/moc_predefs.h -I/usr/lib/qt/mkspecs/linux-g++ -I/home/paulo/Documents/unb/2019-1/tr2/QT-PROXY-HTTP -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I/usr/include/c++/8.3.0 -I/usr/include/c++/8.3.0/x86_64-pc-linux-gnu -I/usr/include/c++/8.3.0/backward -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include -I/usr/local/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed -I/usr/include mainwindow.h -o moc_mainwindow.cpp
+	/usr/bin/moc $(DEFINES) --include /home/paulo/QT_PROXY/QT-PROXY-HTTP/moc_predefs.h -I/usr/lib/qt/mkspecs/linux-g++ -I/home/paulo/QT_PROXY/QT-PROXY-HTTP -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I/usr/include/c++/8.3.0 -I/usr/include/c++/8.3.0/x86_64-pc-linux-gnu -I/usr/include/c++/8.3.0/backward -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include -I/usr/local/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed -I/usr/include mainwindow.h -o moc_mainwindow.cpp
 
 moc_proxy.cpp: proxy.h \
 		httputils.h \
 		moc_predefs.h \
 		/usr/bin/moc
-	/usr/bin/moc $(DEFINES) --include /home/paulo/Documents/unb/2019-1/tr2/QT-PROXY-HTTP/moc_predefs.h -I/usr/lib/qt/mkspecs/linux-g++ -I/home/paulo/Documents/unb/2019-1/tr2/QT-PROXY-HTTP -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I/usr/include/c++/8.3.0 -I/usr/include/c++/8.3.0/x86_64-pc-linux-gnu -I/usr/include/c++/8.3.0/backward -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include -I/usr/local/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed -I/usr/include proxy.h -o moc_proxy.cpp
+	/usr/bin/moc $(DEFINES) --include /home/paulo/QT_PROXY/QT-PROXY-HTTP/moc_predefs.h -I/usr/lib/qt/mkspecs/linux-g++ -I/home/paulo/QT_PROXY/QT-PROXY-HTTP -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I/usr/include/c++/8.3.0 -I/usr/include/c++/8.3.0/x86_64-pc-linux-gnu -I/usr/include/c++/8.3.0/backward -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include -I/usr/local/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed -I/usr/include proxy.h -o moc_proxy.cpp
 
 moc_webtools.cpp: webtools.h \
 		httputils.h \
 		moc_predefs.h \
 		/usr/bin/moc
-	/usr/bin/moc $(DEFINES) --include /home/paulo/Documents/unb/2019-1/tr2/QT-PROXY-HTTP/moc_predefs.h -I/usr/lib/qt/mkspecs/linux-g++ -I/home/paulo/Documents/unb/2019-1/tr2/QT-PROXY-HTTP -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I/usr/include/c++/8.3.0 -I/usr/include/c++/8.3.0/x86_64-pc-linux-gnu -I/usr/include/c++/8.3.0/backward -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include -I/usr/local/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed -I/usr/include webtools.h -o moc_webtools.cpp
+	/usr/bin/moc $(DEFINES) --include /home/paulo/QT_PROXY/QT-PROXY-HTTP/moc_predefs.h -I/usr/lib/qt/mkspecs/linux-g++ -I/home/paulo/QT_PROXY/QT-PROXY-HTTP -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I/usr/include/c++/8.3.0 -I/usr/include/c++/8.3.0/x86_64-pc-linux-gnu -I/usr/include/c++/8.3.0/backward -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include -I/usr/local/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed -I/usr/include webtools.h -o moc_webtools.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:

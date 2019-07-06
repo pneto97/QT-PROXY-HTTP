@@ -1,0 +1,798 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+.qmake.stash	Makefile	/^.qmake.stash:$/;"	t
+/usr/lib/libQt5Core.prl	Makefile	/^\/usr\/lib\/libQt5Core.prl:$/;"	t
+/usr/lib/libQt5Gui.prl	Makefile	/^\/usr\/lib\/libQt5Gui.prl:$/;"	t
+/usr/lib/libQt5Widgets.prl	Makefile	/^\/usr\/lib\/libQt5Widgets.prl:$/;"	t
+/usr/lib/qt/mkspecs/common/gcc-base-unix.conf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/common\/gcc-base-unix.conf:$/;"	t
+/usr/lib/qt/mkspecs/common/gcc-base.conf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/common\/gcc-base.conf:$/;"	t
+/usr/lib/qt/mkspecs/common/linux.conf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/common\/linux.conf:$/;"	t
+/usr/lib/qt/mkspecs/common/sanitize.conf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/common\/sanitize.conf:$/;"	t
+/usr/lib/qt/mkspecs/common/unix.conf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/common\/unix.conf:$/;"	t
+/usr/lib/qt/mkspecs/features/default_post.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/default_post.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/default_pre.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/default_pre.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/exceptions.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/exceptions.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/exclusive_builds.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/exclusive_builds.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/file_copies.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/file_copies.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/lex.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/lex.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/moc.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/moc.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/qmake_use.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/qmake_use.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/qml_debug.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/qml_debug.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/qt.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/qt.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/qt_config.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/qt_config.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/qt_functions.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/qt_functions.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/resolve_config.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/resolve_config.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/resources.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/resources.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/spec_post.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/spec_post.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/spec_pre.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/spec_pre.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/testcase_targets.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/testcase_targets.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/toolchain.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/toolchain.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/uic.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/uic.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/unix/opengl.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/unix\/opengl.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/unix/thread.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/unix\/thread.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/warn_on.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/warn_on.prf:$/;"	t
+/usr/lib/qt/mkspecs/features/yacc.prf	Makefile	/^\/usr\/lib\/qt\/mkspecs\/features\/yacc.prf:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_KSyntaxHighlighting.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_KSyntaxHighlighting.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_accessibility_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_accessibility_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_bootstrap_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_bootstrap_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_concurrent.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_concurrent.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_concurrent_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_concurrent_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_core.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_core.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_core_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_core_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_dbus.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_dbus.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_dbus_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_dbus_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_designer.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_designer.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_designer_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_designer_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_designercomponents_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_designercomponents_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_devicediscovery_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_devicediscovery_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_edid_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_edid_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_egl_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_egl_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_eglfs_kms_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_eglfsdeviceintegration_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_eventdispatcher_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_fb_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_fb_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_fontdatabase_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_fontdatabase_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_glx_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_glx_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_gui.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_gui.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_gui_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_gui_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_help.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_help.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_help_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_help_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_input_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_input_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_kms_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_kms_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_linuxaccessibility_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_location.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_location.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_location_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_location_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_multimedia.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_multimedia.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_multimedia_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_multimedia_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_multimediagsttools_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_multimediagsttools_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_multimediawidgets.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_multimediawidgets.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_multimediawidgets_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_multimediawidgets_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_network.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_network.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_network_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_network_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_opengl.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_opengl.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_opengl_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_opengl_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_openglextensions.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_openglextensions.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_openglextensions_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_openglextensions_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_packetprotocol_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_packetprotocol_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_platformcompositor_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_platformcompositor_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_positioning.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_positioning.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_positioning_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_positioning_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_positioningquick.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_positioningquick.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_positioningquick_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_positioningquick_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_printsupport.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_printsupport.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_printsupport_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_printsupport_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_qml.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_qml.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_qml_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_qml_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_qmldebug_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_qmldebug_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_qmldevtools_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_qmldevtools_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_qmltest.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_qmltest.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_qmltest_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_qmltest_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_qtmultimediaquicktools_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_quick.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_quick.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_quick_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_quick_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_quickcontrols2.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_quickcontrols2.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_quickcontrols2_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_quickcontrols2_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_quickparticles_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_quickparticles_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_quickshapes_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_quickshapes_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_quicktemplates2.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_quicktemplates2.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_quicktemplates2_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_quicktemplates2_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_quickwidgets.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_quickwidgets.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_quickwidgets_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_quickwidgets_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_script.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_script.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_script_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_script_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_scripttools.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_scripttools.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_scripttools_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_scripttools_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_sensors.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_sensors.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_sensors_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_sensors_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_service_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_service_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_sql.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_sql.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_sql_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_sql_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_svg.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_svg.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_svg_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_svg_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_testlib.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_testlib.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_testlib_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_testlib_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_theme_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_theme_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_uiplugin.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_uiplugin.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_uitools.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_uitools.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_uitools_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_uitools_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_vulkan_support_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_vulkan_support_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webchannel.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webchannel.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webchannel_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webchannel_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webengine.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webengine.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webengine_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webengine_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webenginecore.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webenginecore.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webenginecore_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webenginecore_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webenginecoreheaders_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webenginecoreheaders_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webenginewidgets.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webenginewidgets.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webenginewidgets_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webenginewidgets_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webkit.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webkit.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webkit_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webkit_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webkitwidgets.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webkitwidgets.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_webkitwidgets_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_webkitwidgets_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_widgets.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_widgets.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_widgets_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_widgets_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_x11extras.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_x11extras.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_x11extras_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_x11extras_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_xcb_qpa_lib_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_xml.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_xml.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_xml_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_xml_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_xmlpatterns.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_xmlpatterns.pri:$/;"	t
+/usr/lib/qt/mkspecs/modules/qt_lib_xmlpatterns_private.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/modules\/qt_lib_xmlpatterns_private.pri:$/;"	t
+/usr/lib/qt/mkspecs/qconfig.pri	Makefile	/^\/usr\/lib\/qt\/mkspecs\/qconfig.pri:$/;"	t
+AR	Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -g -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = cp -f -R$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = cp -f$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -g -std=gnu++11 -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/lib\/qt\/mkspecs\/features\/spec_pre.prf \\$/;"	m
+DISTDIR	Makefile	/^DISTDIR = \/home\/paulo\/QT_PROXY\/QT-PROXY-HTTP\/.tmp\/qtproxy1.0.0$/;"	m
+DISTNAME	Makefile	/^DISTNAME      = qtproxy1.0.0$/;"	m
+DUMP	mainwindow.h	/^    DUMP =2$/;"	e	enum:ScreenName
+DUMP	webtools.h	/^    DUMP = 1$/;"	e	enum:Operation
+EQ	Makefile	/^EQ            = =$/;"	m
+FORCE	Makefile	/^FORCE:$/;"	t
+HTTP_UTILS	httputils.h	/^#define HTTP_UTILS$/;"	d
+INCPATH	Makefile	/^INCPATH       = -I. -isystem \/usr\/include\/qt -isystem \/usr\/include\/qt\/QtWidgets -isystem /;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = cp -f -R$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS) -lQt5Widgets -lQt5Gui -lQt5Core \/usr\/lib\/libGL.so -lpthread   $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MAINWINDOW_H	mainwindow.h	/^#define MAINWINDOW_H$/;"	d
+MAKEFILE	Makefile	/^MAKEFILE      = Makefile$/;"	m
+MAX_BUFFER_SIZE	httputils.h	/^#define MAX_BUFFER_SIZE /;"	d
+MAX_BUFFER_SIZE	proxy.h	/^#define MAX_BUFFER_SIZE /;"	d
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MainWindow	mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	class:MainWindow
+MainWindow	mainwindow.h	/^class MainWindow : public QMainWindow$/;"	c
+MainWindow	ui_mainwindow.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui
+Makefile	Makefile	/^Makefile: qtproxy.pro \/usr\/lib\/qt\/mkspecs\/linux-g++\/qmake.conf \/usr\/lib\/qt\/mkspecs\/fe/;"	t
+OBJECTS	Makefile	/^OBJECTS       = httputils.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+Operation	webtools.h	/^enum class Operation{$/;"	g
+PROXY	mainwindow.h	/^    PROXY = 0,$/;"	e	enum:ScreenName
+PROXY_H	proxy.h	/^#define PROXY_H$/;"	d
+Proxy	proxy.cpp	/^Proxy::Proxy(QObject *parent) : QObject(parent){$/;"	f	class:Proxy
+Proxy	proxy.h	/^class Proxy : public QObject$/;"	c
+QINSTALL	Makefile	/^QINSTALL      = \/usr\/bin\/qmake -install qinstall$/;"	m
+QINSTALL_PROGRAM	Makefile	/^QINSTALL_PROGRAM = \/usr\/bin\/qmake -install qinstall -exe$/;"	m
+QT_MOC_LITERAL	moc_mainwindow.cpp	/^#define QT_MOC_LITERAL(/;"	d	file:
+QT_MOC_LITERAL	moc_proxy.cpp	/^#define QT_MOC_LITERAL(/;"	d	file:
+QT_MOC_LITERAL	moc_webtools.cpp	/^#define QT_MOC_LITERAL(/;"	d	file:
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+Request	httputils.cpp	/^Request::Request(string req){$/;"	f	class:Request
+Request	httputils.h	/^class Request{$/;"	c
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = httputils.cpp \\$/;"	m
+SPIDER	mainwindow.h	/^    SPIDER = 1,$/;"	e	enum:ScreenName
+SPIDER	webtools.h	/^    SPIDER = 0,$/;"	e	enum:Operation
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+ScreenName	mainwindow.h	/^enum class ScreenName{$/;"	g
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = qtproxy$/;"	m
+UI_MAINWINDOW_H	ui_mainwindow.h	/^#define UI_MAINWINDOW_H$/;"	d
+Ui	mainwindow.h	/^namespace Ui {$/;"	n
+Ui	ui_mainwindow.h	/^namespace Ui {$/;"	n
+Ui_MainWindow	ui_mainwindow.h	/^class Ui_MainWindow$/;"	c
+WEBTOOLS_H	webtools.h	/^#define WEBTOOLS_H$/;"	d
+WebTools	webtools.cpp	/^WebTools::WebTools(QObject *parent) : QObject(parent)$/;"	f	class:WebTools
+WebTools	webtools.h	/^class WebTools : public QObject$/;"	c
+_GNU_SOURCE	moc_predefs.h	/^#define _GNU_SOURCE /;"	d
+_LP64	moc_predefs.h	/^#define _LP64 /;"	d
+_STDC_PREDEF_H	moc_predefs.h	/^#define _STDC_PREDEF_H /;"	d
+__ATOMIC_ACQUIRE	moc_predefs.h	/^#define __ATOMIC_ACQUIRE /;"	d
+__ATOMIC_ACQ_REL	moc_predefs.h	/^#define __ATOMIC_ACQ_REL /;"	d
+__ATOMIC_CONSUME	moc_predefs.h	/^#define __ATOMIC_CONSUME /;"	d
+__ATOMIC_HLE_ACQUIRE	moc_predefs.h	/^#define __ATOMIC_HLE_ACQUIRE /;"	d
+__ATOMIC_HLE_RELEASE	moc_predefs.h	/^#define __ATOMIC_HLE_RELEASE /;"	d
+__ATOMIC_RELAXED	moc_predefs.h	/^#define __ATOMIC_RELAXED /;"	d
+__ATOMIC_RELEASE	moc_predefs.h	/^#define __ATOMIC_RELEASE /;"	d
+__ATOMIC_SEQ_CST	moc_predefs.h	/^#define __ATOMIC_SEQ_CST /;"	d
+__BIGGEST_ALIGNMENT__	moc_predefs.h	/^#define __BIGGEST_ALIGNMENT__ /;"	d
+__BYTE_ORDER__	moc_predefs.h	/^#define __BYTE_ORDER__ /;"	d
+__CHAR16_TYPE__	moc_predefs.h	/^#define __CHAR16_TYPE__ /;"	d
+__CHAR32_TYPE__	moc_predefs.h	/^#define __CHAR32_TYPE__ /;"	d
+__CHAR_BIT__	moc_predefs.h	/^#define __CHAR_BIT__ /;"	d
+__DBL_DECIMAL_DIG__	moc_predefs.h	/^#define __DBL_DECIMAL_DIG__ /;"	d
+__DBL_DENORM_MIN__	moc_predefs.h	/^#define __DBL_DENORM_MIN__ /;"	d
+__DBL_DIG__	moc_predefs.h	/^#define __DBL_DIG__ /;"	d
+__DBL_EPSILON__	moc_predefs.h	/^#define __DBL_EPSILON__ /;"	d
+__DBL_HAS_DENORM__	moc_predefs.h	/^#define __DBL_HAS_DENORM__ /;"	d
+__DBL_HAS_INFINITY__	moc_predefs.h	/^#define __DBL_HAS_INFINITY__ /;"	d
+__DBL_HAS_QUIET_NAN__	moc_predefs.h	/^#define __DBL_HAS_QUIET_NAN__ /;"	d
+__DBL_MANT_DIG__	moc_predefs.h	/^#define __DBL_MANT_DIG__ /;"	d
+__DBL_MAX_10_EXP__	moc_predefs.h	/^#define __DBL_MAX_10_EXP__ /;"	d
+__DBL_MAX_EXP__	moc_predefs.h	/^#define __DBL_MAX_EXP__ /;"	d
+__DBL_MAX__	moc_predefs.h	/^#define __DBL_MAX__ /;"	d
+__DBL_MIN_10_EXP__	moc_predefs.h	/^#define __DBL_MIN_10_EXP__ /;"	d
+__DBL_MIN_EXP__	moc_predefs.h	/^#define __DBL_MIN_EXP__ /;"	d
+__DBL_MIN__	moc_predefs.h	/^#define __DBL_MIN__ /;"	d
+__DEC128_EPSILON__	moc_predefs.h	/^#define __DEC128_EPSILON__ /;"	d
+__DEC128_MANT_DIG__	moc_predefs.h	/^#define __DEC128_MANT_DIG__ /;"	d
+__DEC128_MAX_EXP__	moc_predefs.h	/^#define __DEC128_MAX_EXP__ /;"	d
+__DEC128_MAX__	moc_predefs.h	/^#define __DEC128_MAX__ /;"	d
+__DEC128_MIN_EXP__	moc_predefs.h	/^#define __DEC128_MIN_EXP__ /;"	d
+__DEC128_MIN__	moc_predefs.h	/^#define __DEC128_MIN__ /;"	d
+__DEC128_SUBNORMAL_MIN__	moc_predefs.h	/^#define __DEC128_SUBNORMAL_MIN__ /;"	d
+__DEC32_EPSILON__	moc_predefs.h	/^#define __DEC32_EPSILON__ /;"	d
+__DEC32_MANT_DIG__	moc_predefs.h	/^#define __DEC32_MANT_DIG__ /;"	d
+__DEC32_MAX_EXP__	moc_predefs.h	/^#define __DEC32_MAX_EXP__ /;"	d
+__DEC32_MAX__	moc_predefs.h	/^#define __DEC32_MAX__ /;"	d
+__DEC32_MIN_EXP__	moc_predefs.h	/^#define __DEC32_MIN_EXP__ /;"	d
+__DEC32_MIN__	moc_predefs.h	/^#define __DEC32_MIN__ /;"	d
+__DEC32_SUBNORMAL_MIN__	moc_predefs.h	/^#define __DEC32_SUBNORMAL_MIN__ /;"	d
+__DEC64_EPSILON__	moc_predefs.h	/^#define __DEC64_EPSILON__ /;"	d
+__DEC64_MANT_DIG__	moc_predefs.h	/^#define __DEC64_MANT_DIG__ /;"	d
+__DEC64_MAX_EXP__	moc_predefs.h	/^#define __DEC64_MAX_EXP__ /;"	d
+__DEC64_MAX__	moc_predefs.h	/^#define __DEC64_MAX__ /;"	d
+__DEC64_MIN_EXP__	moc_predefs.h	/^#define __DEC64_MIN_EXP__ /;"	d
+__DEC64_MIN__	moc_predefs.h	/^#define __DEC64_MIN__ /;"	d
+__DEC64_SUBNORMAL_MIN__	moc_predefs.h	/^#define __DEC64_SUBNORMAL_MIN__ /;"	d
+__DECIMAL_BID_FORMAT__	moc_predefs.h	/^#define __DECIMAL_BID_FORMAT__ /;"	d
+__DECIMAL_DIG__	moc_predefs.h	/^#define __DECIMAL_DIG__ /;"	d
+__DEC_EVAL_METHOD__	moc_predefs.h	/^#define __DEC_EVAL_METHOD__ /;"	d
+__DEPRECATED	moc_predefs.h	/^#define __DEPRECATED /;"	d
+__ELF__	moc_predefs.h	/^#define __ELF__ /;"	d
+__EXCEPTIONS	moc_predefs.h	/^#define __EXCEPTIONS /;"	d
+__FINITE_MATH_ONLY__	moc_predefs.h	/^#define __FINITE_MATH_ONLY__ /;"	d
+__FLOAT_WORD_ORDER__	moc_predefs.h	/^#define __FLOAT_WORD_ORDER__ /;"	d
+__FLT128_DECIMAL_DIG__	moc_predefs.h	/^#define __FLT128_DECIMAL_DIG__ /;"	d
+__FLT128_DENORM_MIN__	moc_predefs.h	/^#define __FLT128_DENORM_MIN__ /;"	d
+__FLT128_DIG__	moc_predefs.h	/^#define __FLT128_DIG__ /;"	d
+__FLT128_EPSILON__	moc_predefs.h	/^#define __FLT128_EPSILON__ /;"	d
+__FLT128_HAS_DENORM__	moc_predefs.h	/^#define __FLT128_HAS_DENORM__ /;"	d
+__FLT128_HAS_INFINITY__	moc_predefs.h	/^#define __FLT128_HAS_INFINITY__ /;"	d
+__FLT128_HAS_QUIET_NAN__	moc_predefs.h	/^#define __FLT128_HAS_QUIET_NAN__ /;"	d
+__FLT128_MANT_DIG__	moc_predefs.h	/^#define __FLT128_MANT_DIG__ /;"	d
+__FLT128_MAX_10_EXP__	moc_predefs.h	/^#define __FLT128_MAX_10_EXP__ /;"	d
+__FLT128_MAX_EXP__	moc_predefs.h	/^#define __FLT128_MAX_EXP__ /;"	d
+__FLT128_MAX__	moc_predefs.h	/^#define __FLT128_MAX__ /;"	d
+__FLT128_MIN_10_EXP__	moc_predefs.h	/^#define __FLT128_MIN_10_EXP__ /;"	d
+__FLT128_MIN_EXP__	moc_predefs.h	/^#define __FLT128_MIN_EXP__ /;"	d
+__FLT128_MIN__	moc_predefs.h	/^#define __FLT128_MIN__ /;"	d
+__FLT32X_DECIMAL_DIG__	moc_predefs.h	/^#define __FLT32X_DECIMAL_DIG__ /;"	d
+__FLT32X_DENORM_MIN__	moc_predefs.h	/^#define __FLT32X_DENORM_MIN__ /;"	d
+__FLT32X_DIG__	moc_predefs.h	/^#define __FLT32X_DIG__ /;"	d
+__FLT32X_EPSILON__	moc_predefs.h	/^#define __FLT32X_EPSILON__ /;"	d
+__FLT32X_HAS_DENORM__	moc_predefs.h	/^#define __FLT32X_HAS_DENORM__ /;"	d
+__FLT32X_HAS_INFINITY__	moc_predefs.h	/^#define __FLT32X_HAS_INFINITY__ /;"	d
+__FLT32X_HAS_QUIET_NAN__	moc_predefs.h	/^#define __FLT32X_HAS_QUIET_NAN__ /;"	d
+__FLT32X_MANT_DIG__	moc_predefs.h	/^#define __FLT32X_MANT_DIG__ /;"	d
+__FLT32X_MAX_10_EXP__	moc_predefs.h	/^#define __FLT32X_MAX_10_EXP__ /;"	d
+__FLT32X_MAX_EXP__	moc_predefs.h	/^#define __FLT32X_MAX_EXP__ /;"	d
+__FLT32X_MAX__	moc_predefs.h	/^#define __FLT32X_MAX__ /;"	d
+__FLT32X_MIN_10_EXP__	moc_predefs.h	/^#define __FLT32X_MIN_10_EXP__ /;"	d
+__FLT32X_MIN_EXP__	moc_predefs.h	/^#define __FLT32X_MIN_EXP__ /;"	d
+__FLT32X_MIN__	moc_predefs.h	/^#define __FLT32X_MIN__ /;"	d
+__FLT32_DECIMAL_DIG__	moc_predefs.h	/^#define __FLT32_DECIMAL_DIG__ /;"	d
+__FLT32_DENORM_MIN__	moc_predefs.h	/^#define __FLT32_DENORM_MIN__ /;"	d
+__FLT32_DIG__	moc_predefs.h	/^#define __FLT32_DIG__ /;"	d
+__FLT32_EPSILON__	moc_predefs.h	/^#define __FLT32_EPSILON__ /;"	d
+__FLT32_HAS_DENORM__	moc_predefs.h	/^#define __FLT32_HAS_DENORM__ /;"	d
+__FLT32_HAS_INFINITY__	moc_predefs.h	/^#define __FLT32_HAS_INFINITY__ /;"	d
+__FLT32_HAS_QUIET_NAN__	moc_predefs.h	/^#define __FLT32_HAS_QUIET_NAN__ /;"	d
+__FLT32_MANT_DIG__	moc_predefs.h	/^#define __FLT32_MANT_DIG__ /;"	d
+__FLT32_MAX_10_EXP__	moc_predefs.h	/^#define __FLT32_MAX_10_EXP__ /;"	d
+__FLT32_MAX_EXP__	moc_predefs.h	/^#define __FLT32_MAX_EXP__ /;"	d
+__FLT32_MAX__	moc_predefs.h	/^#define __FLT32_MAX__ /;"	d
+__FLT32_MIN_10_EXP__	moc_predefs.h	/^#define __FLT32_MIN_10_EXP__ /;"	d
+__FLT32_MIN_EXP__	moc_predefs.h	/^#define __FLT32_MIN_EXP__ /;"	d
+__FLT32_MIN__	moc_predefs.h	/^#define __FLT32_MIN__ /;"	d
+__FLT64X_DECIMAL_DIG__	moc_predefs.h	/^#define __FLT64X_DECIMAL_DIG__ /;"	d
+__FLT64X_DENORM_MIN__	moc_predefs.h	/^#define __FLT64X_DENORM_MIN__ /;"	d
+__FLT64X_DIG__	moc_predefs.h	/^#define __FLT64X_DIG__ /;"	d
+__FLT64X_EPSILON__	moc_predefs.h	/^#define __FLT64X_EPSILON__ /;"	d
+__FLT64X_HAS_DENORM__	moc_predefs.h	/^#define __FLT64X_HAS_DENORM__ /;"	d
+__FLT64X_HAS_INFINITY__	moc_predefs.h	/^#define __FLT64X_HAS_INFINITY__ /;"	d
+__FLT64X_HAS_QUIET_NAN__	moc_predefs.h	/^#define __FLT64X_HAS_QUIET_NAN__ /;"	d
+__FLT64X_MANT_DIG__	moc_predefs.h	/^#define __FLT64X_MANT_DIG__ /;"	d
+__FLT64X_MAX_10_EXP__	moc_predefs.h	/^#define __FLT64X_MAX_10_EXP__ /;"	d
+__FLT64X_MAX_EXP__	moc_predefs.h	/^#define __FLT64X_MAX_EXP__ /;"	d
+__FLT64X_MAX__	moc_predefs.h	/^#define __FLT64X_MAX__ /;"	d
+__FLT64X_MIN_10_EXP__	moc_predefs.h	/^#define __FLT64X_MIN_10_EXP__ /;"	d
+__FLT64X_MIN_EXP__	moc_predefs.h	/^#define __FLT64X_MIN_EXP__ /;"	d
+__FLT64X_MIN__	moc_predefs.h	/^#define __FLT64X_MIN__ /;"	d
+__FLT64_DECIMAL_DIG__	moc_predefs.h	/^#define __FLT64_DECIMAL_DIG__ /;"	d
+__FLT64_DENORM_MIN__	moc_predefs.h	/^#define __FLT64_DENORM_MIN__ /;"	d
+__FLT64_DIG__	moc_predefs.h	/^#define __FLT64_DIG__ /;"	d
+__FLT64_EPSILON__	moc_predefs.h	/^#define __FLT64_EPSILON__ /;"	d
+__FLT64_HAS_DENORM__	moc_predefs.h	/^#define __FLT64_HAS_DENORM__ /;"	d
+__FLT64_HAS_INFINITY__	moc_predefs.h	/^#define __FLT64_HAS_INFINITY__ /;"	d
+__FLT64_HAS_QUIET_NAN__	moc_predefs.h	/^#define __FLT64_HAS_QUIET_NAN__ /;"	d
+__FLT64_MANT_DIG__	moc_predefs.h	/^#define __FLT64_MANT_DIG__ /;"	d
+__FLT64_MAX_10_EXP__	moc_predefs.h	/^#define __FLT64_MAX_10_EXP__ /;"	d
+__FLT64_MAX_EXP__	moc_predefs.h	/^#define __FLT64_MAX_EXP__ /;"	d
+__FLT64_MAX__	moc_predefs.h	/^#define __FLT64_MAX__ /;"	d
+__FLT64_MIN_10_EXP__	moc_predefs.h	/^#define __FLT64_MIN_10_EXP__ /;"	d
+__FLT64_MIN_EXP__	moc_predefs.h	/^#define __FLT64_MIN_EXP__ /;"	d
+__FLT64_MIN__	moc_predefs.h	/^#define __FLT64_MIN__ /;"	d
+__FLT_DECIMAL_DIG__	moc_predefs.h	/^#define __FLT_DECIMAL_DIG__ /;"	d
+__FLT_DENORM_MIN__	moc_predefs.h	/^#define __FLT_DENORM_MIN__ /;"	d
+__FLT_DIG__	moc_predefs.h	/^#define __FLT_DIG__ /;"	d
+__FLT_EPSILON__	moc_predefs.h	/^#define __FLT_EPSILON__ /;"	d
+__FLT_EVAL_METHOD_TS_18661_3__	moc_predefs.h	/^#define __FLT_EVAL_METHOD_TS_18661_3__ /;"	d
+__FLT_EVAL_METHOD__	moc_predefs.h	/^#define __FLT_EVAL_METHOD__ /;"	d
+__FLT_HAS_DENORM__	moc_predefs.h	/^#define __FLT_HAS_DENORM__ /;"	d
+__FLT_HAS_INFINITY__	moc_predefs.h	/^#define __FLT_HAS_INFINITY__ /;"	d
+__FLT_HAS_QUIET_NAN__	moc_predefs.h	/^#define __FLT_HAS_QUIET_NAN__ /;"	d
+__FLT_MANT_DIG__	moc_predefs.h	/^#define __FLT_MANT_DIG__ /;"	d
+__FLT_MAX_10_EXP__	moc_predefs.h	/^#define __FLT_MAX_10_EXP__ /;"	d
+__FLT_MAX_EXP__	moc_predefs.h	/^#define __FLT_MAX_EXP__ /;"	d
+__FLT_MAX__	moc_predefs.h	/^#define __FLT_MAX__ /;"	d
+__FLT_MIN_10_EXP__	moc_predefs.h	/^#define __FLT_MIN_10_EXP__ /;"	d
+__FLT_MIN_EXP__	moc_predefs.h	/^#define __FLT_MIN_EXP__ /;"	d
+__FLT_MIN__	moc_predefs.h	/^#define __FLT_MIN__ /;"	d
+__FLT_RADIX__	moc_predefs.h	/^#define __FLT_RADIX__ /;"	d
+__FXSR__	moc_predefs.h	/^#define __FXSR__ /;"	d
+__GCC_ASM_FLAG_OUTPUTS__	moc_predefs.h	/^#define __GCC_ASM_FLAG_OUTPUTS__ /;"	d
+__GCC_ATOMIC_BOOL_LOCK_FREE	moc_predefs.h	/^#define __GCC_ATOMIC_BOOL_LOCK_FREE /;"	d
+__GCC_ATOMIC_CHAR16_T_LOCK_FREE	moc_predefs.h	/^#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE /;"	d
+__GCC_ATOMIC_CHAR32_T_LOCK_FREE	moc_predefs.h	/^#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE /;"	d
+__GCC_ATOMIC_CHAR_LOCK_FREE	moc_predefs.h	/^#define __GCC_ATOMIC_CHAR_LOCK_FREE /;"	d
+__GCC_ATOMIC_INT_LOCK_FREE	moc_predefs.h	/^#define __GCC_ATOMIC_INT_LOCK_FREE /;"	d
+__GCC_ATOMIC_LLONG_LOCK_FREE	moc_predefs.h	/^#define __GCC_ATOMIC_LLONG_LOCK_FREE /;"	d
+__GCC_ATOMIC_LONG_LOCK_FREE	moc_predefs.h	/^#define __GCC_ATOMIC_LONG_LOCK_FREE /;"	d
+__GCC_ATOMIC_POINTER_LOCK_FREE	moc_predefs.h	/^#define __GCC_ATOMIC_POINTER_LOCK_FREE /;"	d
+__GCC_ATOMIC_SHORT_LOCK_FREE	moc_predefs.h	/^#define __GCC_ATOMIC_SHORT_LOCK_FREE /;"	d
+__GCC_ATOMIC_TEST_AND_SET_TRUEVAL	moc_predefs.h	/^#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL /;"	d
+__GCC_ATOMIC_WCHAR_T_LOCK_FREE	moc_predefs.h	/^#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE /;"	d
+__GCC_HAVE_DWARF2_CFI_ASM	moc_predefs.h	/^#define __GCC_HAVE_DWARF2_CFI_ASM /;"	d
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1	moc_predefs.h	/^#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 /;"	d
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2	moc_predefs.h	/^#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 /;"	d
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4	moc_predefs.h	/^#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 /;"	d
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8	moc_predefs.h	/^#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 /;"	d
+__GCC_IEC_559	moc_predefs.h	/^#define __GCC_IEC_559 /;"	d
+__GCC_IEC_559_COMPLEX	moc_predefs.h	/^#define __GCC_IEC_559_COMPLEX /;"	d
+__GLIBCXX_BITSIZE_INT_N_0	moc_predefs.h	/^#define __GLIBCXX_BITSIZE_INT_N_0 /;"	d
+__GLIBCXX_TYPE_INT_N_0	moc_predefs.h	/^#define __GLIBCXX_TYPE_INT_N_0 /;"	d
+__GNUC_MINOR__	moc_predefs.h	/^#define __GNUC_MINOR__ /;"	d
+__GNUC_PATCHLEVEL__	moc_predefs.h	/^#define __GNUC_PATCHLEVEL__ /;"	d
+__GNUC_STDC_INLINE__	moc_predefs.h	/^#define __GNUC_STDC_INLINE__ /;"	d
+__GNUC__	moc_predefs.h	/^#define __GNUC__ /;"	d
+__GNUG__	moc_predefs.h	/^#define __GNUG__ /;"	d
+__GXX_ABI_VERSION	moc_predefs.h	/^#define __GXX_ABI_VERSION /;"	d
+__GXX_EXPERIMENTAL_CXX0X__	moc_predefs.h	/^#define __GXX_EXPERIMENTAL_CXX0X__ /;"	d
+__GXX_RTTI	moc_predefs.h	/^#define __GXX_RTTI /;"	d
+__GXX_WEAK__	moc_predefs.h	/^#define __GXX_WEAK__ /;"	d
+__INT16_C	moc_predefs.h	/^#define __INT16_C(/;"	d
+__INT16_MAX__	moc_predefs.h	/^#define __INT16_MAX__ /;"	d
+__INT16_TYPE__	moc_predefs.h	/^#define __INT16_TYPE__ /;"	d
+__INT32_C	moc_predefs.h	/^#define __INT32_C(/;"	d
+__INT32_MAX__	moc_predefs.h	/^#define __INT32_MAX__ /;"	d
+__INT32_TYPE__	moc_predefs.h	/^#define __INT32_TYPE__ /;"	d
+__INT64_C	moc_predefs.h	/^#define __INT64_C(/;"	d
+__INT64_MAX__	moc_predefs.h	/^#define __INT64_MAX__ /;"	d
+__INT64_TYPE__	moc_predefs.h	/^#define __INT64_TYPE__ /;"	d
+__INT8_C	moc_predefs.h	/^#define __INT8_C(/;"	d
+__INT8_MAX__	moc_predefs.h	/^#define __INT8_MAX__ /;"	d
+__INT8_TYPE__	moc_predefs.h	/^#define __INT8_TYPE__ /;"	d
+__INTMAX_C	moc_predefs.h	/^#define __INTMAX_C(/;"	d
+__INTMAX_MAX__	moc_predefs.h	/^#define __INTMAX_MAX__ /;"	d
+__INTMAX_TYPE__	moc_predefs.h	/^#define __INTMAX_TYPE__ /;"	d
+__INTMAX_WIDTH__	moc_predefs.h	/^#define __INTMAX_WIDTH__ /;"	d
+__INTPTR_MAX__	moc_predefs.h	/^#define __INTPTR_MAX__ /;"	d
+__INTPTR_TYPE__	moc_predefs.h	/^#define __INTPTR_TYPE__ /;"	d
+__INTPTR_WIDTH__	moc_predefs.h	/^#define __INTPTR_WIDTH__ /;"	d
+__INT_FAST16_MAX__	moc_predefs.h	/^#define __INT_FAST16_MAX__ /;"	d
+__INT_FAST16_TYPE__	moc_predefs.h	/^#define __INT_FAST16_TYPE__ /;"	d
+__INT_FAST16_WIDTH__	moc_predefs.h	/^#define __INT_FAST16_WIDTH__ /;"	d
+__INT_FAST32_MAX__	moc_predefs.h	/^#define __INT_FAST32_MAX__ /;"	d
+__INT_FAST32_TYPE__	moc_predefs.h	/^#define __INT_FAST32_TYPE__ /;"	d
+__INT_FAST32_WIDTH__	moc_predefs.h	/^#define __INT_FAST32_WIDTH__ /;"	d
+__INT_FAST64_MAX__	moc_predefs.h	/^#define __INT_FAST64_MAX__ /;"	d
+__INT_FAST64_TYPE__	moc_predefs.h	/^#define __INT_FAST64_TYPE__ /;"	d
+__INT_FAST64_WIDTH__	moc_predefs.h	/^#define __INT_FAST64_WIDTH__ /;"	d
+__INT_FAST8_MAX__	moc_predefs.h	/^#define __INT_FAST8_MAX__ /;"	d
+__INT_FAST8_TYPE__	moc_predefs.h	/^#define __INT_FAST8_TYPE__ /;"	d
+__INT_FAST8_WIDTH__	moc_predefs.h	/^#define __INT_FAST8_WIDTH__ /;"	d
+__INT_LEAST16_MAX__	moc_predefs.h	/^#define __INT_LEAST16_MAX__ /;"	d
+__INT_LEAST16_TYPE__	moc_predefs.h	/^#define __INT_LEAST16_TYPE__ /;"	d
+__INT_LEAST16_WIDTH__	moc_predefs.h	/^#define __INT_LEAST16_WIDTH__ /;"	d
+__INT_LEAST32_MAX__	moc_predefs.h	/^#define __INT_LEAST32_MAX__ /;"	d
+__INT_LEAST32_TYPE__	moc_predefs.h	/^#define __INT_LEAST32_TYPE__ /;"	d
+__INT_LEAST32_WIDTH__	moc_predefs.h	/^#define __INT_LEAST32_WIDTH__ /;"	d
+__INT_LEAST64_MAX__	moc_predefs.h	/^#define __INT_LEAST64_MAX__ /;"	d
+__INT_LEAST64_TYPE__	moc_predefs.h	/^#define __INT_LEAST64_TYPE__ /;"	d
+__INT_LEAST64_WIDTH__	moc_predefs.h	/^#define __INT_LEAST64_WIDTH__ /;"	d
+__INT_LEAST8_MAX__	moc_predefs.h	/^#define __INT_LEAST8_MAX__ /;"	d
+__INT_LEAST8_TYPE__	moc_predefs.h	/^#define __INT_LEAST8_TYPE__ /;"	d
+__INT_LEAST8_WIDTH__	moc_predefs.h	/^#define __INT_LEAST8_WIDTH__ /;"	d
+__INT_MAX__	moc_predefs.h	/^#define __INT_MAX__ /;"	d
+__INT_WIDTH__	moc_predefs.h	/^#define __INT_WIDTH__ /;"	d
+__LDBL_DECIMAL_DIG__	moc_predefs.h	/^#define __LDBL_DECIMAL_DIG__ /;"	d
+__LDBL_DENORM_MIN__	moc_predefs.h	/^#define __LDBL_DENORM_MIN__ /;"	d
+__LDBL_DIG__	moc_predefs.h	/^#define __LDBL_DIG__ /;"	d
+__LDBL_EPSILON__	moc_predefs.h	/^#define __LDBL_EPSILON__ /;"	d
+__LDBL_HAS_DENORM__	moc_predefs.h	/^#define __LDBL_HAS_DENORM__ /;"	d
+__LDBL_HAS_INFINITY__	moc_predefs.h	/^#define __LDBL_HAS_INFINITY__ /;"	d
+__LDBL_HAS_QUIET_NAN__	moc_predefs.h	/^#define __LDBL_HAS_QUIET_NAN__ /;"	d
+__LDBL_MANT_DIG__	moc_predefs.h	/^#define __LDBL_MANT_DIG__ /;"	d
+__LDBL_MAX_10_EXP__	moc_predefs.h	/^#define __LDBL_MAX_10_EXP__ /;"	d
+__LDBL_MAX_EXP__	moc_predefs.h	/^#define __LDBL_MAX_EXP__ /;"	d
+__LDBL_MAX__	moc_predefs.h	/^#define __LDBL_MAX__ /;"	d
+__LDBL_MIN_10_EXP__	moc_predefs.h	/^#define __LDBL_MIN_10_EXP__ /;"	d
+__LDBL_MIN_EXP__	moc_predefs.h	/^#define __LDBL_MIN_EXP__ /;"	d
+__LDBL_MIN__	moc_predefs.h	/^#define __LDBL_MIN__ /;"	d
+__LONG_LONG_MAX__	moc_predefs.h	/^#define __LONG_LONG_MAX__ /;"	d
+__LONG_LONG_WIDTH__	moc_predefs.h	/^#define __LONG_LONG_WIDTH__ /;"	d
+__LONG_MAX__	moc_predefs.h	/^#define __LONG_MAX__ /;"	d
+__LONG_WIDTH__	moc_predefs.h	/^#define __LONG_WIDTH__ /;"	d
+__LP64__	moc_predefs.h	/^#define __LP64__ /;"	d
+__MMX__	moc_predefs.h	/^#define __MMX__ /;"	d
+__NO_INLINE__	moc_predefs.h	/^#define __NO_INLINE__ /;"	d
+__ORDER_BIG_ENDIAN__	moc_predefs.h	/^#define __ORDER_BIG_ENDIAN__ /;"	d
+__ORDER_LITTLE_ENDIAN__	moc_predefs.h	/^#define __ORDER_LITTLE_ENDIAN__ /;"	d
+__ORDER_PDP_ENDIAN__	moc_predefs.h	/^#define __ORDER_PDP_ENDIAN__ /;"	d
+__PIC__	moc_predefs.h	/^#define __PIC__ /;"	d
+__PIE__	moc_predefs.h	/^#define __PIE__ /;"	d
+__PRAGMA_REDEFINE_EXTNAME	moc_predefs.h	/^#define __PRAGMA_REDEFINE_EXTNAME /;"	d
+__PTRDIFF_MAX__	moc_predefs.h	/^#define __PTRDIFF_MAX__ /;"	d
+__PTRDIFF_TYPE__	moc_predefs.h	/^#define __PTRDIFF_TYPE__ /;"	d
+__PTRDIFF_WIDTH__	moc_predefs.h	/^#define __PTRDIFF_WIDTH__ /;"	d
+__REGISTER_PREFIX__	moc_predefs.h	/^#define __REGISTER_PREFIX__ /;"	d
+__SCHAR_MAX__	moc_predefs.h	/^#define __SCHAR_MAX__ /;"	d
+__SCHAR_WIDTH__	moc_predefs.h	/^#define __SCHAR_WIDTH__ /;"	d
+__SEG_FS	moc_predefs.h	/^#define __SEG_FS /;"	d
+__SEG_GS	moc_predefs.h	/^#define __SEG_GS /;"	d
+__SHRT_MAX__	moc_predefs.h	/^#define __SHRT_MAX__ /;"	d
+__SHRT_WIDTH__	moc_predefs.h	/^#define __SHRT_WIDTH__ /;"	d
+__SIG_ATOMIC_MAX__	moc_predefs.h	/^#define __SIG_ATOMIC_MAX__ /;"	d
+__SIG_ATOMIC_MIN__	moc_predefs.h	/^#define __SIG_ATOMIC_MIN__ /;"	d
+__SIG_ATOMIC_TYPE__	moc_predefs.h	/^#define __SIG_ATOMIC_TYPE__ /;"	d
+__SIG_ATOMIC_WIDTH__	moc_predefs.h	/^#define __SIG_ATOMIC_WIDTH__ /;"	d
+__SIZEOF_DOUBLE__	moc_predefs.h	/^#define __SIZEOF_DOUBLE__ /;"	d
+__SIZEOF_FLOAT128__	moc_predefs.h	/^#define __SIZEOF_FLOAT128__ /;"	d
+__SIZEOF_FLOAT80__	moc_predefs.h	/^#define __SIZEOF_FLOAT80__ /;"	d
+__SIZEOF_FLOAT__	moc_predefs.h	/^#define __SIZEOF_FLOAT__ /;"	d
+__SIZEOF_INT128__	moc_predefs.h	/^#define __SIZEOF_INT128__ /;"	d
+__SIZEOF_INT__	moc_predefs.h	/^#define __SIZEOF_INT__ /;"	d
+__SIZEOF_LONG_DOUBLE__	moc_predefs.h	/^#define __SIZEOF_LONG_DOUBLE__ /;"	d
+__SIZEOF_LONG_LONG__	moc_predefs.h	/^#define __SIZEOF_LONG_LONG__ /;"	d
+__SIZEOF_LONG__	moc_predefs.h	/^#define __SIZEOF_LONG__ /;"	d
+__SIZEOF_POINTER__	moc_predefs.h	/^#define __SIZEOF_POINTER__ /;"	d
+__SIZEOF_PTRDIFF_T__	moc_predefs.h	/^#define __SIZEOF_PTRDIFF_T__ /;"	d
+__SIZEOF_SHORT__	moc_predefs.h	/^#define __SIZEOF_SHORT__ /;"	d
+__SIZEOF_SIZE_T__	moc_predefs.h	/^#define __SIZEOF_SIZE_T__ /;"	d
+__SIZEOF_WCHAR_T__	moc_predefs.h	/^#define __SIZEOF_WCHAR_T__ /;"	d
+__SIZEOF_WINT_T__	moc_predefs.h	/^#define __SIZEOF_WINT_T__ /;"	d
+__SIZE_MAX__	moc_predefs.h	/^#define __SIZE_MAX__ /;"	d
+__SIZE_TYPE__	moc_predefs.h	/^#define __SIZE_TYPE__ /;"	d
+__SIZE_WIDTH__	moc_predefs.h	/^#define __SIZE_WIDTH__ /;"	d
+__SSE2_MATH__	moc_predefs.h	/^#define __SSE2_MATH__ /;"	d
+__SSE2__	moc_predefs.h	/^#define __SSE2__ /;"	d
+__SSE_MATH__	moc_predefs.h	/^#define __SSE_MATH__ /;"	d
+__SSE__	moc_predefs.h	/^#define __SSE__ /;"	d
+__SSP_STRONG__	moc_predefs.h	/^#define __SSP_STRONG__ /;"	d
+__STDC_HOSTED__	moc_predefs.h	/^#define __STDC_HOSTED__ /;"	d
+__STDC_IEC_559_COMPLEX__	moc_predefs.h	/^#define __STDC_IEC_559_COMPLEX__ /;"	d
+__STDC_IEC_559__	moc_predefs.h	/^#define __STDC_IEC_559__ /;"	d
+__STDC_ISO_10646__	moc_predefs.h	/^#define __STDC_ISO_10646__ /;"	d
+__STDC_UTF_16__	moc_predefs.h	/^#define __STDC_UTF_16__ /;"	d
+__STDC_UTF_32__	moc_predefs.h	/^#define __STDC_UTF_32__ /;"	d
+__STDC__	moc_predefs.h	/^#define __STDC__ /;"	d
+__UINT16_C	moc_predefs.h	/^#define __UINT16_C(/;"	d
+__UINT16_MAX__	moc_predefs.h	/^#define __UINT16_MAX__ /;"	d
+__UINT16_TYPE__	moc_predefs.h	/^#define __UINT16_TYPE__ /;"	d
+__UINT32_C	moc_predefs.h	/^#define __UINT32_C(/;"	d
+__UINT32_MAX__	moc_predefs.h	/^#define __UINT32_MAX__ /;"	d
+__UINT32_TYPE__	moc_predefs.h	/^#define __UINT32_TYPE__ /;"	d
+__UINT64_C	moc_predefs.h	/^#define __UINT64_C(/;"	d
+__UINT64_MAX__	moc_predefs.h	/^#define __UINT64_MAX__ /;"	d
+__UINT64_TYPE__	moc_predefs.h	/^#define __UINT64_TYPE__ /;"	d
+__UINT8_C	moc_predefs.h	/^#define __UINT8_C(/;"	d
+__UINT8_MAX__	moc_predefs.h	/^#define __UINT8_MAX__ /;"	d
+__UINT8_TYPE__	moc_predefs.h	/^#define __UINT8_TYPE__ /;"	d
+__UINTMAX_C	moc_predefs.h	/^#define __UINTMAX_C(/;"	d
+__UINTMAX_MAX__	moc_predefs.h	/^#define __UINTMAX_MAX__ /;"	d
+__UINTMAX_TYPE__	moc_predefs.h	/^#define __UINTMAX_TYPE__ /;"	d
+__UINTPTR_MAX__	moc_predefs.h	/^#define __UINTPTR_MAX__ /;"	d
+__UINTPTR_TYPE__	moc_predefs.h	/^#define __UINTPTR_TYPE__ /;"	d
+__UINT_FAST16_MAX__	moc_predefs.h	/^#define __UINT_FAST16_MAX__ /;"	d
+__UINT_FAST16_TYPE__	moc_predefs.h	/^#define __UINT_FAST16_TYPE__ /;"	d
+__UINT_FAST32_MAX__	moc_predefs.h	/^#define __UINT_FAST32_MAX__ /;"	d
+__UINT_FAST32_TYPE__	moc_predefs.h	/^#define __UINT_FAST32_TYPE__ /;"	d
+__UINT_FAST64_MAX__	moc_predefs.h	/^#define __UINT_FAST64_MAX__ /;"	d
+__UINT_FAST64_TYPE__	moc_predefs.h	/^#define __UINT_FAST64_TYPE__ /;"	d
+__UINT_FAST8_MAX__	moc_predefs.h	/^#define __UINT_FAST8_MAX__ /;"	d
+__UINT_FAST8_TYPE__	moc_predefs.h	/^#define __UINT_FAST8_TYPE__ /;"	d
+__UINT_LEAST16_MAX__	moc_predefs.h	/^#define __UINT_LEAST16_MAX__ /;"	d
+__UINT_LEAST16_TYPE__	moc_predefs.h	/^#define __UINT_LEAST16_TYPE__ /;"	d
+__UINT_LEAST32_MAX__	moc_predefs.h	/^#define __UINT_LEAST32_MAX__ /;"	d
+__UINT_LEAST32_TYPE__	moc_predefs.h	/^#define __UINT_LEAST32_TYPE__ /;"	d
+__UINT_LEAST64_MAX__	moc_predefs.h	/^#define __UINT_LEAST64_MAX__ /;"	d
+__UINT_LEAST64_TYPE__	moc_predefs.h	/^#define __UINT_LEAST64_TYPE__ /;"	d
+__UINT_LEAST8_MAX__	moc_predefs.h	/^#define __UINT_LEAST8_MAX__ /;"	d
+__UINT_LEAST8_TYPE__	moc_predefs.h	/^#define __UINT_LEAST8_TYPE__ /;"	d
+__USER_LABEL_PREFIX__	moc_predefs.h	/^#define __USER_LABEL_PREFIX__ /;"	d
+__VERSION__	moc_predefs.h	/^#define __VERSION__ /;"	d
+__WCHAR_MAX__	moc_predefs.h	/^#define __WCHAR_MAX__ /;"	d
+__WCHAR_MIN__	moc_predefs.h	/^#define __WCHAR_MIN__ /;"	d
+__WCHAR_TYPE__	moc_predefs.h	/^#define __WCHAR_TYPE__ /;"	d
+__WCHAR_WIDTH__	moc_predefs.h	/^#define __WCHAR_WIDTH__ /;"	d
+__WINT_MAX__	moc_predefs.h	/^#define __WINT_MAX__ /;"	d
+__WINT_MIN__	moc_predefs.h	/^#define __WINT_MIN__ /;"	d
+__WINT_TYPE__	moc_predefs.h	/^#define __WINT_TYPE__ /;"	d
+__WINT_WIDTH__	moc_predefs.h	/^#define __WINT_WIDTH__ /;"	d
+__amd64	moc_predefs.h	/^#define __amd64 /;"	d
+__amd64__	moc_predefs.h	/^#define __amd64__ /;"	d
+__code_model_small__	moc_predefs.h	/^#define __code_model_small__ /;"	d
+__cplusplus	moc_predefs.h	/^#define __cplusplus /;"	d
+__cpp_alias_templates	moc_predefs.h	/^#define __cpp_alias_templates /;"	d
+__cpp_attributes	moc_predefs.h	/^#define __cpp_attributes /;"	d
+__cpp_binary_literals	moc_predefs.h	/^#define __cpp_binary_literals /;"	d
+__cpp_constexpr	moc_predefs.h	/^#define __cpp_constexpr /;"	d
+__cpp_decltype	moc_predefs.h	/^#define __cpp_decltype /;"	d
+__cpp_delegating_constructors	moc_predefs.h	/^#define __cpp_delegating_constructors /;"	d
+__cpp_exceptions	moc_predefs.h	/^#define __cpp_exceptions /;"	d
+__cpp_hex_float	moc_predefs.h	/^#define __cpp_hex_float /;"	d
+__cpp_inheriting_constructors	moc_predefs.h	/^#define __cpp_inheriting_constructors /;"	d
+__cpp_initializer_lists	moc_predefs.h	/^#define __cpp_initializer_lists /;"	d
+__cpp_lambdas	moc_predefs.h	/^#define __cpp_lambdas /;"	d
+__cpp_nsdmi	moc_predefs.h	/^#define __cpp_nsdmi /;"	d
+__cpp_range_based_for	moc_predefs.h	/^#define __cpp_range_based_for /;"	d
+__cpp_raw_strings	moc_predefs.h	/^#define __cpp_raw_strings /;"	d
+__cpp_ref_qualifiers	moc_predefs.h	/^#define __cpp_ref_qualifiers /;"	d
+__cpp_rtti	moc_predefs.h	/^#define __cpp_rtti /;"	d
+__cpp_runtime_arrays	moc_predefs.h	/^#define __cpp_runtime_arrays /;"	d
+__cpp_rvalue_reference	moc_predefs.h	/^#define __cpp_rvalue_reference /;"	d
+__cpp_rvalue_references	moc_predefs.h	/^#define __cpp_rvalue_references /;"	d
+__cpp_static_assert	moc_predefs.h	/^#define __cpp_static_assert /;"	d
+__cpp_threadsafe_static_init	moc_predefs.h	/^#define __cpp_threadsafe_static_init /;"	d
+__cpp_unicode_characters	moc_predefs.h	/^#define __cpp_unicode_characters /;"	d
+__cpp_unicode_literals	moc_predefs.h	/^#define __cpp_unicode_literals /;"	d
+__cpp_user_defined_literals	moc_predefs.h	/^#define __cpp_user_defined_literals /;"	d
+__cpp_variadic_templates	moc_predefs.h	/^#define __cpp_variadic_templates /;"	d
+__gnu_linux__	moc_predefs.h	/^#define __gnu_linux__ /;"	d
+__has_include	moc_predefs.h	/^#define __has_include(/;"	d
+__has_include_next	moc_predefs.h	/^#define __has_include_next(/;"	d
+__k8	moc_predefs.h	/^#define __k8 /;"	d
+__k8__	moc_predefs.h	/^#define __k8__ /;"	d
+__linux	moc_predefs.h	/^#define __linux /;"	d
+__linux__	moc_predefs.h	/^#define __linux__ /;"	d
+__pic__	moc_predefs.h	/^#define __pic__ /;"	d
+__pie__	moc_predefs.h	/^#define __pie__ /;"	d
+__unix	moc_predefs.h	/^#define __unix /;"	d
+__unix__	moc_predefs.h	/^#define __unix__ /;"	d
+__x86_64	moc_predefs.h	/^#define __x86_64 /;"	d
+__x86_64__	moc_predefs.h	/^#define __x86_64__ /;"	d
+_t	moc_mainwindow.cpp	/^            using _t = void (MainWindow::*)();$/;"	t	function:MainWindow::qt_static_metacall	file:
+_t	moc_mainwindow.cpp	/^            using _t = void (MainWindow::*)(QString , QString );$/;"	t	function:MainWindow::qt_static_metacall	file:
+_t	moc_proxy.cpp	/^            using _t = void (Proxy::*)();$/;"	t	function:Proxy::qt_static_metacall	file:
+_t	moc_proxy.cpp	/^            using _t = void (Proxy::*)(QString );$/;"	t	function:Proxy::qt_static_metacall	file:
+_t	moc_webtools.cpp	/^            using _t = void (WebTools::*)(QString );$/;"	t	function:WebTools::qt_static_metacall	file:
+actiondump	ui_mainwindow.h	/^    QAction *actiondump;$/;"	m	class:Ui_MainWindow	typeref:typename:QAction *
+actionproxy	ui_mainwindow.h	/^    QAction *actionproxy;$/;"	m	class:Ui_MainWindow	typeref:typename:QAction *
+actionspider	ui_mainwindow.h	/^    QAction *actionspider;$/;"	m	class:Ui_MainWindow	typeref:typename:QAction *
+all	Makefile	/^all: Makefile qtproxy$/;"	t
+benchmark	Makefile	/^benchmark: first$/;"	t
+buttonFlag	proxy.h	/^    bool buttonFlag;$/;"	m	class:Proxy	typeref:typename:bool
+buttonFlag	webtools.h	/^    bool buttonFlag;$/;"	m	class:WebTools	typeref:typename:bool
+centralWidget	ui_mainwindow.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_MainWindow	typeref:typename:QWidget *
+check	Makefile	/^check: first$/;"	t
+clean	Makefile	/^clean: compiler_clean $/;"	t
+compiler_clean	Makefile	/^compiler_clean: compiler_moc_predefs_clean compiler_moc_header_clean compiler_uic_clean $/;"	t
+compiler_lex_clean	Makefile	/^compiler_lex_clean:$/;"	t
+compiler_lex_make_all	Makefile	/^compiler_lex_make_all:$/;"	t
+compiler_moc_header_clean	Makefile	/^compiler_moc_header_clean:$/;"	t
+compiler_moc_header_make_all	Makefile	/^compiler_moc_header_make_all: moc_mainwindow.cpp moc_proxy.cpp moc_webtools.cpp$/;"	t
+compiler_moc_objc_header_clean	Makefile	/^compiler_moc_objc_header_clean:$/;"	t
+compiler_moc_objc_header_make_all	Makefile	/^compiler_moc_objc_header_make_all:$/;"	t
+compiler_moc_predefs_clean	Makefile	/^compiler_moc_predefs_clean:$/;"	t
+compiler_moc_predefs_make_all	Makefile	/^compiler_moc_predefs_make_all: moc_predefs.h$/;"	t
+compiler_moc_source_clean	Makefile	/^compiler_moc_source_clean:$/;"	t
+compiler_moc_source_make_all	Makefile	/^compiler_moc_source_make_all:$/;"	t
+compiler_rcc_clean	Makefile	/^compiler_rcc_clean:$/;"	t
+compiler_rcc_make_all	Makefile	/^compiler_rcc_make_all:$/;"	t
+compiler_uic_clean	Makefile	/^compiler_uic_clean:$/;"	t
+compiler_uic_make_all	Makefile	/^compiler_uic_make_all: ui_mainwindow.h$/;"	t
+compiler_yacc_decl_clean	Makefile	/^compiler_yacc_decl_clean:$/;"	t
+compiler_yacc_decl_make_all	Makefile	/^compiler_yacc_decl_make_all:$/;"	t
+compiler_yacc_impl_clean	Makefile	/^compiler_yacc_impl_clean:$/;"	t
+compiler_yacc_impl_make_all	Makefile	/^compiler_yacc_impl_make_all:$/;"	t
+data	moc_mainwindow.cpp	/^    QByteArrayData data[17];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	typeref:typename:QByteArrayData[17]	file:
+data	moc_proxy.cpp	/^    QByteArrayData data[9];$/;"	m	struct:qt_meta_stringdata_Proxy_t	typeref:typename:QByteArrayData[9]	file:
+data	moc_webtools.cpp	/^    QByteArrayData data[6];$/;"	m	struct:qt_meta_stringdata_WebTools_t	typeref:typename:QByteArrayData[6]	file:
+depth	webtools.h	/^    int depth;$/;"	m	class:WebTools	typeref:typename:int
+dist	Makefile	/^dist: distdir FORCE$/;"	t
+distclean	Makefile	/^distclean: clean $/;"	t
+distdir	Makefile	/^distdir: FORCE$/;"	t
+doSetup	proxy.cpp	/^void Proxy::doSetup(QThread &cThread){$/;"	f	class:Proxy	typeref:typename:void
+doSetup	webtools.cpp	/^void WebTools::doSetup(QThread &cThread, Operation op){$/;"	f	class:WebTools	typeref:typename:void
+doWork	proxy.cpp	/^void Proxy::doWork(){$/;"	f	class:Proxy	typeref:typename:void
+downloadPage	webtools.cpp	/^bool WebTools::downloadPage(string url, string fileName){$/;"	f	class:WebTools	typeref:typename:bool
+dumpURL	webtools.cpp	/^void WebTools::dumpURL(string url){$/;"	f	class:WebTools	typeref:typename:void
+extractDirectory	httputils.cpp	/^string extractDirectory(string url){$/;"	f	typeref:typename:string
+extractFileName	httputils.cpp	/^string extractFileName(string url){$/;"	f	typeref:typename:string
+extractHost	httputils.cpp	/^string extractHost(string url){$/;"	f	typeref:typename:string
+extractPath	httputils.cpp	/^string extractPath(string url){$/;"	f	typeref:typename:string
+findPaths	httputils.cpp	/^int findPaths(std::vector<string>& paths, std::string response, string host){$/;"	f	typeref:typename:int
+first	Makefile	/^first: all$/;"	t
+fixLinks	httputils.cpp	/^string fixLinks(string response){$/;"	f	typeref:typename:string
+fixUrl	httputils.cpp	/^string fixUrl(string str, string host){$/;"	f	typeref:typename:string
+getDepth	webtools.h	/^    int getDepth(){$/;"	f	class:WebTools	typeref:typename:int
+getHost	httputils.cpp	/^string Request::getHost(){$/;"	f	class:Request	typeref:typename:string
+getMethod	httputils.cpp	/^string Request::getMethod(){$/;"	f	class:Request	typeref:typename:string
+getRequest	httputils.cpp	/^string Request::getRequest(){$/;"	f	class:Request	typeref:typename:string
+getUri	httputils.cpp	/^string Request::getUri(){$/;"	f	class:Request	typeref:typename:string
+getUrl	webtools.h	/^    string getUrl(){$/;"	f	class:WebTools	typeref:typename:string
+getVersion	httputils.cpp	/^string Request::getVersion(){$/;"	f	class:Request	typeref:typename:string
+horizontalLayout	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_MainWindow	typeref:typename:QHBoxLayout *
+horizontalLayout_2	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_MainWindow	typeref:typename:QHBoxLayout *
+horizontalLayout_3	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_3;$/;"	m	class:Ui_MainWindow	typeref:typename:QHBoxLayout *
+horizontalLayout_4	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_4;$/;"	m	class:Ui_MainWindow	typeref:typename:QHBoxLayout *
+horizontalLayout_5	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_5;$/;"	m	class:Ui_MainWindow	typeref:typename:QHBoxLayout *
+horizontalLayout_6	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_6;$/;"	m	class:Ui_MainWindow	typeref:typename:QHBoxLayout *
+horizontalLayout_7	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_7;$/;"	m	class:Ui_MainWindow	typeref:typename:QHBoxLayout *
+horizontalLayout_8	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_8;$/;"	m	class:Ui_MainWindow	typeref:typename:QHBoxLayout *
+horizontalSpacer	ui_mainwindow.h	/^    QSpacerItem *horizontalSpacer;$/;"	m	class:Ui_MainWindow	typeref:typename:QSpacerItem *
+horizontalSpacer_2	ui_mainwindow.h	/^    QSpacerItem *horizontalSpacer_2;$/;"	m	class:Ui_MainWindow	typeref:typename:QSpacerItem *
+host	httputils.h	/^        string host;$/;"	m	class:Request	typeref:typename:string
+httputils.o	Makefile	/^httputils.o: httputils.cpp httputils.h$/;"	t
+initServerSocket	httputils.cpp	/^int initServerSocket(string host){$/;"	f	typeref:typename:int
+initServerSocket	proxy.cpp	/^int Proxy::initServerSocket(string host){$/;"	f	class:Proxy	typeref:typename:int
+install	Makefile	/^install: install_target  FORCE$/;"	t
+install_target	Makefile	/^install_target: first FORCE$/;"	t
+label	ui_mainwindow.h	/^    QLabel *label;$/;"	m	class:Ui_MainWindow	typeref:typename:QLabel *
+label_2	ui_mainwindow.h	/^    QLabel *label_2;$/;"	m	class:Ui_MainWindow	typeref:typename:QLabel *
+label_3	ui_mainwindow.h	/^    QLabel *label_3;$/;"	m	class:Ui_MainWindow	typeref:typename:QLabel *
+label_4	ui_mainwindow.h	/^    QLabel *label_4;$/;"	m	class:Ui_MainWindow	typeref:typename:QLabel *
+linux	moc_predefs.h	/^#define linux /;"	d
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main.o	Makefile	/^main.o: main.cpp mainwindow.h \\$/;"	t
+mainArgs	proxy.h	/^    QStringList mainArgs = QApplication::arguments();$/;"	m	class:Proxy	typeref:typename:QStringList
+mainToolBar	ui_mainwindow.h	/^    QToolBar *mainToolBar;$/;"	m	class:Ui_MainWindow	typeref:typename:QToolBar *
+mainwindow.o	Makefile	/^mainwindow.o: mainwindow.cpp mainwindow.h \\$/;"	t
+metaObject	moc_mainwindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow	typeref:typename:const QMetaObject *
+metaObject	moc_proxy.cpp	/^const QMetaObject *Proxy::metaObject() const$/;"	f	class:Proxy	typeref:typename:const QMetaObject *
+metaObject	moc_webtools.cpp	/^const QMetaObject *WebTools::metaObject() const$/;"	f	class:WebTools	typeref:typename:const QMetaObject *
+method	httputils.h	/^        string method;$/;"	m	class:Request	typeref:typename:string
+moc_mainwindow.cpp	Makefile	/^moc_mainwindow.cpp: mainwindow.h \\$/;"	t
+moc_mainwindow.o	Makefile	/^moc_mainwindow.o: moc_mainwindow.cpp $/;"	t
+moc_predefs.h	Makefile	/^moc_predefs.h: \/usr\/lib\/qt\/mkspecs\/features\/data\/dummy.cpp$/;"	t
+moc_proxy.cpp	Makefile	/^moc_proxy.cpp: proxy.h \\$/;"	t
+moc_proxy.o	Makefile	/^moc_proxy.o: moc_proxy.cpp $/;"	t
+moc_webtools.cpp	Makefile	/^moc_webtools.cpp: webtools.h \\$/;"	t
+moc_webtools.o	Makefile	/^moc_webtools.o: moc_webtools.cpp $/;"	t
+mocables	Makefile	/^mocables: compiler_moc_header_make_all compiler_moc_objc_header_make_all compiler_moc_source_mak/;"	t
+mocclean	Makefile	/^mocclean: compiler_moc_header_clean compiler_moc_objc_header_clean compiler_moc_source_clean$/;"	t
+nodeSpider	moc_webtools.cpp	/^void WebTools::nodeSpider(QString _t1)$/;"	f	class:WebTools	typeref:typename:void
+on_actiondump_triggered	mainwindow.cpp	/^void MainWindow::on_actiondump_triggered()$/;"	f	class:MainWindow	typeref:typename:void
+on_actionproxy_triggered	mainwindow.cpp	/^void MainWindow::on_actionproxy_triggered()$/;"	f	class:MainWindow	typeref:typename:void
+on_actionspider_triggered	mainwindow.cpp	/^void MainWindow::on_actionspider_triggered()$/;"	f	class:MainWindow	typeref:typename:void
+on_buttonPressed	proxy.cpp	/^void Proxy::on_buttonPressed(QString request, QString reply){$/;"	f	class:Proxy	typeref:typename:void
+on_buttonPressed	webtools.cpp	/^void WebTools::on_buttonPressed(QString url, QString depth){$/;"	f	class:WebTools	typeref:typename:void
+on_nodeSpider	mainwindow.cpp	/^void MainWindow::on_nodeSpider(QString node){$/;"	f	class:MainWindow	typeref:typename:void
+on_pushButton_2_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_2_clicked()$/;"	f	class:MainWindow	typeref:typename:void
+on_pushButton_3_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_3_clicked()$/;"	f	class:MainWindow	typeref:typename:void
+on_pushButton_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_clicked()$/;"	f	class:MainWindow	typeref:typename:void
+on_replyReceived	mainwindow.cpp	/^void MainWindow::on_replyReceived(QString reply){$/;"	f	class:MainWindow	typeref:typename:void
+on_replyRetrieved	mainwindow.cpp	/^void MainWindow::on_replyRetrieved(){$/;"	f	class:MainWindow	typeref:typename:void
+on_requestReceived	mainwindow.cpp	/^void MainWindow::on_requestReceived(QString req){$/;"	f	class:MainWindow	typeref:typename:void
+on_requestSent	mainwindow.cpp	/^void MainWindow::on_requestSent(){$/;"	f	class:MainWindow	typeref:typename:void
+on_textReceived	mainwindow.cpp	/^void MainWindow::on_textReceived(QString txt){$/;"	f	class:MainWindow	typeref:typename:void
+page	ui_mainwindow.h	/^    QWidget *page;$/;"	m	class:Ui_MainWindow	typeref:typename:QWidget *
+page_2	ui_mainwindow.h	/^    QWidget *page_2;$/;"	m	class:Ui_MainWindow	typeref:typename:QWidget *
+page_3	ui_mainwindow.h	/^    QWidget *page_3;$/;"	m	class:Ui_MainWindow	typeref:typename:QWidget *
+parse	httputils.cpp	/^void Request::parse(string req){$/;"	f	class:Request	typeref:typename:void
+plainTextEdit	ui_mainwindow.h	/^    QPlainTextEdit *plainTextEdit;$/;"	m	class:Ui_MainWindow	typeref:typename:QPlainTextEdit *
+plainTextEdit_2	ui_mainwindow.h	/^    QPlainTextEdit *plainTextEdit_2;$/;"	m	class:Ui_MainWindow	typeref:typename:QPlainTextEdit *
+plainTextEdit_3	ui_mainwindow.h	/^    QPlainTextEdit *plainTextEdit_3;$/;"	m	class:Ui_MainWindow	typeref:typename:QPlainTextEdit *
+proxy	mainwindow.h	/^    Proxy proxy;$/;"	m	class:MainWindow	typeref:typename:Proxy
+proxy.o	Makefile	/^proxy.o: proxy.cpp proxy.h \\$/;"	t
+proxyThread	mainwindow.h	/^    QThread proxyThread;$/;"	m	class:MainWindow	typeref:typename:QThread
+pushButton	ui_mainwindow.h	/^    QPushButton *pushButton;$/;"	m	class:Ui_MainWindow	typeref:typename:QPushButton *
+pushButton_2	ui_mainwindow.h	/^    QPushButton *pushButton_2;$/;"	m	class:Ui_MainWindow	typeref:typename:QPushButton *
+pushButton_3	ui_mainwindow.h	/^    QPushButton *pushButton_3;$/;"	m	class:Ui_MainWindow	typeref:typename:QPushButton *
+qmake	Makefile	/^qmake: FORCE$/;"	t
+qmake_all	Makefile	/^qmake_all: FORCE$/;"	t
+qt_meta_data_MainWindow	moc_mainwindow.cpp	/^static const uint qt_meta_data_MainWindow[] = {$/;"	v	typeref:typename:const uint[]	file:
+qt_meta_data_Proxy	moc_proxy.cpp	/^static const uint qt_meta_data_Proxy[] = {$/;"	v	typeref:typename:const uint[]	file:
+qt_meta_data_WebTools	moc_webtools.cpp	/^static const uint qt_meta_data_WebTools[] = {$/;"	v	typeref:typename:const uint[]	file:
+qt_meta_stringdata_MainWindow	moc_mainwindow.cpp	/^static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {$/;"	v	typeref:typename:const qt_meta_stringdata_MainWindow_t	file:
+qt_meta_stringdata_MainWindow_t	moc_mainwindow.cpp	/^struct qt_meta_stringdata_MainWindow_t {$/;"	s	file:
+qt_meta_stringdata_Proxy	moc_proxy.cpp	/^static const qt_meta_stringdata_Proxy_t qt_meta_stringdata_Proxy = {$/;"	v	typeref:typename:const qt_meta_stringdata_Proxy_t	file:
+qt_meta_stringdata_Proxy_t	moc_proxy.cpp	/^struct qt_meta_stringdata_Proxy_t {$/;"	s	file:
+qt_meta_stringdata_WebTools	moc_webtools.cpp	/^static const qt_meta_stringdata_WebTools_t qt_meta_stringdata_WebTools = {$/;"	v	typeref:typename:const qt_meta_stringdata_WebTools_t	file:
+qt_meta_stringdata_WebTools_t	moc_webtools.cpp	/^struct qt_meta_stringdata_WebTools_t {$/;"	s	file:
+qt_metacall	moc_mainwindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow	typeref:typename:int
+qt_metacall	moc_proxy.cpp	/^int Proxy::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Proxy	typeref:typename:int
+qt_metacall	moc_webtools.cpp	/^int WebTools::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:WebTools	typeref:typename:int
+qt_metacast	moc_mainwindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow	typeref:typename:void *
+qt_metacast	moc_proxy.cpp	/^void *Proxy::qt_metacast(const char *_clname)$/;"	f	class:Proxy	typeref:typename:void *
+qt_metacast	moc_webtools.cpp	/^void *WebTools::qt_metacast(const char *_clname)$/;"	f	class:WebTools	typeref:typename:void *
+qt_static_metacall	moc_mainwindow.cpp	/^void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow	typeref:typename:void
+qt_static_metacall	moc_proxy.cpp	/^void Proxy::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Proxy	typeref:typename:void
+qt_static_metacall	moc_webtools.cpp	/^void WebTools::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:WebTools	typeref:typename:void
+qtproxy	Makefile	/^qtproxy: ui_mainwindow.h $(OBJECTS)  $/;"	t
+qtproxy.pro	Makefile	/^qtproxy.pro:$/;"	t
+reply	proxy.h	/^    QString reply = "";$/;"	m	class:Proxy	typeref:typename:QString
+replyReceived	moc_proxy.cpp	/^void Proxy::replyReceived(QString _t1)$/;"	f	class:Proxy	typeref:typename:void
+replyRetrieved	moc_proxy.cpp	/^void Proxy::replyRetrieved()$/;"	f	class:Proxy	typeref:typename:void
+req	httputils.h	/^        string req;$/;"	m	class:Request	typeref:typename:string
+request	proxy.h	/^    string request = "";$/;"	m	class:Proxy	typeref:typename:string
+requestReceived	moc_proxy.cpp	/^void Proxy::requestReceived(QString _t1)$/;"	f	class:Proxy	typeref:typename:void
+requestSent	moc_proxy.cpp	/^void Proxy::requestSent()$/;"	f	class:Proxy	typeref:typename:void
+retranslateUi	ui_mainwindow.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow	typeref:typename:void
+runDump	webtools.cpp	/^void WebTools::runDump(){$/;"	f	class:WebTools	typeref:typename:void
+runSpider	webtools.cpp	/^void WebTools::runSpider(){$/;"	f	class:WebTools	typeref:typename:void
+scrollArea	ui_mainwindow.h	/^    QScrollArea *scrollArea;$/;"	m	class:Ui_MainWindow	typeref:typename:QScrollArea *
+scrollAreaWidgetContents	ui_mainwindow.h	/^    QWidget *scrollAreaWidgetContents;$/;"	m	class:Ui_MainWindow	typeref:typename:QWidget *
+sendData	httputils.cpp	/^int sendData(string data, int sock){$/;"	f	typeref:typename:int
+sendDataChar	httputils.cpp	/^int sendDataChar(char* data, int size, int sock){$/;"	f	typeref:typename:int
+sendGet	httputils.cpp	/^vector<char> sendGet(int* serverSock, string host, string uri){$/;"	f	typeref:typename:vector<char>
+sendRequestAndReply	moc_mainwindow.cpp	/^void MainWindow::sendRequestAndReply(QString _t1, QString _t2)$/;"	f	class:MainWindow	typeref:typename:void
+sendUrlAndDepth	moc_mainwindow.cpp	/^void MainWindow::sendUrlAndDepth(QString _t1, QString _t2)$/;"	f	class:MainWindow	typeref:typename:void
+setScreen	mainwindow.cpp	/^void MainWindow::setScreen(ScreenName screenName){$/;"	f	class:MainWindow	typeref:typename:void
+setupUi	ui_mainwindow.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow	typeref:typename:void
+spider	webtools.cpp	/^void WebTools::spider(vector<string>& paths, string url, int depth){$/;"	f	class:WebTools	typeref:typename:void
+stackedWidget	ui_mainwindow.h	/^    QStackedWidget *stackedWidget;$/;"	m	class:Ui_MainWindow	typeref:typename:QStackedWidget *
+staticMetaObject	moc_mainwindow.cpp	/^QT_INIT_METAOBJECT const QMetaObject MainWindow::staticMetaObject = { {$/;"	m	class:MainWindow	typeref:typename:QT_INIT_METAOBJECT const QMetaObject
+staticMetaObject	moc_proxy.cpp	/^QT_INIT_METAOBJECT const QMetaObject Proxy::staticMetaObject = { {$/;"	m	class:Proxy	typeref:typename:QT_INIT_METAOBJECT const QMetaObject
+staticMetaObject	moc_webtools.cpp	/^QT_INIT_METAOBJECT const QMetaObject WebTools::staticMetaObject = { {$/;"	m	class:WebTools	typeref:typename:QT_INIT_METAOBJECT const QMetaObject
+stop	proxy.cpp	/^void Proxy::stop(){$/;"	f	class:Proxy	typeref:typename:void
+stop	webtools.cpp	/^void WebTools::stop(){$/;"	f	class:WebTools	typeref:typename:void
+stopFlag	proxy.h	/^    bool stopFlag;$/;"	m	class:Proxy	typeref:typename:bool
+stopFlag	webtools.h	/^    bool stopFlag;$/;"	m	class:WebTools	typeref:typename:bool
+stringdata0	moc_mainwindow.cpp	/^    char stringdata0[305];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	typeref:typename:char[305]	file:
+stringdata0	moc_proxy.cpp	/^    char stringdata0[101];$/;"	m	struct:qt_meta_stringdata_Proxy_t	typeref:typename:char[101]	file:
+stringdata0	moc_webtools.cpp	/^    char stringdata0[56];$/;"	m	struct:qt_meta_stringdata_WebTools_t	typeref:typename:char[56]	file:
+textEdit	ui_mainwindow.h	/^    QTextEdit *textEdit;$/;"	m	class:Ui_MainWindow	typeref:typename:QTextEdit *
+textEdit_2	ui_mainwindow.h	/^    QTextEdit *textEdit_2;$/;"	m	class:Ui_MainWindow	typeref:typename:QTextEdit *
+textEdit_3	ui_mainwindow.h	/^    QTextEdit *textEdit_3;$/;"	m	class:Ui_MainWindow	typeref:typename:QTextEdit *
+textEdit_4	ui_mainwindow.h	/^    QTextEdit *textEdit_4;$/;"	m	class:Ui_MainWindow	typeref:typename:QTextEdit *
+textReceived	moc_proxy.cpp	/^void Proxy::textReceived(QString _t1)$/;"	f	class:Proxy	typeref:typename:void
+ui	mainwindow.h	/^    Ui::MainWindow *ui;$/;"	m	class:MainWindow	typeref:typename:Ui::MainWindow *
+ui_mainwindow.h	Makefile	/^ui_mainwindow.h: mainwindow.ui \\$/;"	t
+uninstall	Makefile	/^uninstall: uninstall_target  FORCE$/;"	t
+uninstall_target	Makefile	/^uninstall_target: FORCE$/;"	t
+unix	moc_predefs.h	/^#define unix /;"	d
+unlockSpider	moc_mainwindow.cpp	/^void MainWindow::unlockSpider()$/;"	f	class:MainWindow	typeref:typename:void
+uri	httputils.h	/^        string uri;$/;"	m	class:Request	typeref:typename:string
+url	webtools.h	/^    string url;$/;"	m	class:WebTools	typeref:typename:string
+version	httputils.h	/^        string version;$/;"	m	class:Request	typeref:typename:string
+verticalLayout	ui_mainwindow.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_MainWindow	typeref:typename:QVBoxLayout *
+verticalLayout_2	ui_mainwindow.h	/^    QVBoxLayout *verticalLayout_2;$/;"	m	class:Ui_MainWindow	typeref:typename:QVBoxLayout *
+verticalLayout_3	ui_mainwindow.h	/^    QVBoxLayout *verticalLayout_3;$/;"	m	class:Ui_MainWindow	typeref:typename:QVBoxLayout *
+verticalLayout_4	ui_mainwindow.h	/^    QVBoxLayout *verticalLayout_4;$/;"	m	class:Ui_MainWindow	typeref:typename:QVBoxLayout *
+verticalSpacer	ui_mainwindow.h	/^    QSpacerItem *verticalSpacer;$/;"	m	class:Ui_MainWindow	typeref:typename:QSpacerItem *
+waitButton	proxy.cpp	/^void Proxy::waitButton(){$/;"	f	class:Proxy	typeref:typename:void
+waitButton	webtools.cpp	/^void WebTools::waitButton(){$/;"	f	class:WebTools	typeref:typename:void
+webtools	mainwindow.h	/^    WebTools webtools;$/;"	m	class:MainWindow	typeref:typename:WebTools
+webtools.o	Makefile	/^webtools.o: webtools.cpp webtools.h \\$/;"	t
+webtoolsThread	mainwindow.h	/^    QThread webtoolsThread;$/;"	m	class:MainWindow	typeref:typename:QThread
+~MainWindow	mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow

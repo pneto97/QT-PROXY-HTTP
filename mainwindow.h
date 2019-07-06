@@ -13,6 +13,7 @@ namespace Ui {
 class MainWindow;
 }
 
+//enum com as telas possíveis
 enum class ScreenName{
 
     PROXY = 0,
@@ -29,8 +30,12 @@ public:
     ~MainWindow();
 
 signals:
+    //emitido quando mandamos o request ou response da interface para a thread
     void sendRequestAndReply(QString, QString);
+    
+    //emitido quando manda url e profundidade da interface do spider ou dump para a thtrad
     void sendUrlAndDepth(QString, QString);
+
     void unlockSpider();
 
 private slots:
@@ -62,7 +67,8 @@ private:
     Proxy proxy;
     QThread webtoolsThread;
     WebTools webtools;
-
+    
+    // troca de tela e inicia thread
     void setScreen(ScreenName screenName);
 
 };

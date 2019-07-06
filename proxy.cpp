@@ -23,12 +23,6 @@ void Proxy::stop(){
 
 void Proxy::waitButton(){
 
-    /*
-    QEventLoop loop;
-    connect(this,  SIGNAL(stopSignal()), &loop, SLOT(quit()) );
-    loop.exec();
-    disconnect(this,  SIGNAL(stopSignal()), &loop, SLOT(quit()) );*/
-
     while(buttonFlag == false){
         QThread::msleep(500);
         QCoreApplication::processEvents();

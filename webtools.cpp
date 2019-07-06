@@ -64,16 +64,11 @@ void WebTools::spider(vector<string>& paths, string url, int depth){
 
     findPaths(paths, response, extractHost(url));
 
-    // for(int i = 0 ; i < paths.size() ; i++){
-    //     cout << paths[i] << endl;
-    // }
-
     for(int i = 1 ; i < depth ; i++){
 
         vector<string> pathsCpy(paths);
 
         for(int j = 0 ; j < pathsCpy.size() ; j++){
-         //   if(pathsCpy[j][0] == '/'){ //apenas os locais
 
             string host = extractHost(pathsCpy[j]);
             string uri = extractPath(pathsCpy[j]);
@@ -81,8 +76,6 @@ void WebTools::spider(vector<string>& paths, string url, int depth){
             cout << host << " " << uri << endl;
 
             if( (uri.find(".") == std::string::npos) || (uri.find(".htm") != std::string::npos) || (uri.find(".php") != std::string::npos)){
-
-                //response = sendGet(&serverSock, host , uri);
 
                 try{
                     response_bytes = sendGet(&serverSock, host , uri);
@@ -105,17 +98,10 @@ void WebTools::spider(vector<string>& paths, string url, int depth){
 
 
 void WebTools::runSpider(){
-    //string url = this->getUrl();
-    //int depth = this->getDepth();
     waitButton();
 
     qDebug() << QString::fromStdString(this->url);
     qDebug() << this->depth;
-
-  //  this->url = "http://www.linuxhowtos.org/";
-    //string url = "http://www.ba.gov.br/";
-  //  this->depth = 1;
-
 
     vector<string> paths;
 
@@ -179,13 +165,10 @@ bool WebTools::downloadPage(string url, string fileName){
     if(str_response.find("<html") != string::npos){ //se for html, corrige os hrefs e srcs
         data_start = str_response.find("<",data_start);
         data_end = str_response.find("</html>",data_start);
-        data_end_it = response.begin() + data_end + 7;
-
-
-
+        //data_end_it = response.begin() + data_end + 7;
+        data_end_it = response.end();
 
         string response_data_str(response.begin() + data_start, data_end_it);
-
 
         response_data_str = fixLinks(response_data_str);
 
@@ -234,11 +217,7 @@ bool WebTools::downloadPage(string url, string fileName){
 
 void WebTools::runDump(){
 
-   // string url = "http://www.linuxhowtos.org/";
-    //string url = "http://www.ba.gov.br/";
-    //int depth = 1;
     waitButton();
-
 
     vector <string> paths;
 

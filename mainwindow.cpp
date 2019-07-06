@@ -7,10 +7,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    //ui->stackedWidget->setCurrentIndex(static_cast<int>(ScreenName::PROXY) );
 
     setScreen(ScreenName::PROXY);
-    //connect(&proxy,SIGNAL(textReceived(QString)),this, SLOT(on_textReceived(QString)), Qt::QueuedConnection);
 
     //interface mostra o request quando o proxy manda
     connect(&proxy, SIGNAL(requestReceived(QString)),this, SLOT(on_requestReceived(QString)), Qt::QueuedConnection);
@@ -21,9 +19,6 @@ MainWindow::MainWindow(QWidget *parent) :
     //conecta botao a acão do spider/dump
 
     connect(this, SIGNAL(sendUrlAndDepth(QString,QString)), &webtools, SLOT(on_buttonPressed(QString,QString)), Qt::QueuedConnection);
-
-    //conecta botao à acão de liberar o spider
-    //connect(this, SIGNAL(unlockSpider()), &webtools, SLOT(on_buttonPressed()), Qt::QueuedConnection);
 
     //interface do Spider mostra os nós da árvore
     connect(&webtools, SIGNAL(nodeSpider(QString)), this, SLOT(on_nodeSpider(QString)), Qt::QueuedConnection);
@@ -51,25 +46,24 @@ MainWindow::~MainWindow()
 
 void MainWindow::setScreen(ScreenName screenName){
 
-
+    //para a thread do proxy
     proxy.stop();
     if(proxyThread.isRunning()){
         proxyThread.terminate();
   //      proxy.close_sockets();
     }
 
-
+    //para a thread do proxy ou spider
     webtools.stop();
 
     switch(screenName){
-
+        
+        //se for a do proxy, apaga o texto e configura a thread
         case ScreenName::PROXY:
            qDebug() << "Proxy";
 
            ui->plainTextEdit->setPlainText("");
            ui->plainTextEdit_2->setPlainText("");
-           // if(proxyThread.isRunning())
-           //     proxyThread.wait();
 
             proxy.doSetup(proxyThread);
             proxy.moveToThread(&proxyThread);
@@ -110,19 +104,16 @@ void MainWindow::setScreen(ScreenName screenName){
 
 void MainWindow::on_actionproxy_triggered()
 {
-   // ui->stackedWidget->setCurrentIndex(static_cast<int>(ScreenName::PROXY) );
    setScreen(ScreenName::PROXY);
 }
 
 void MainWindow::on_actionspider_triggered()
 {
-   // ui->stackedWidget->setCurrentIndex(static_cast<int>(ScreenName::SPIDER));
     setScreen(ScreenName::SPIDER);
 }
 
 void MainWindow::on_actiondump_triggered()
 {
-  //  ui->stackedWidget->setCurrentIndex(static_cast<int>(ScreenName::DUMP));
     setScreen(ScreenName::DUMP);
 }
 
@@ -132,6 +123,7 @@ void MainWindow::on_textReceived(QString txt){
 
 }
 
+//quando proxy recebe o request
 void MainWindow::on_requestReceived(QString req){
     ui->plainTextEdit->document()->setPlainText(req);
     ui->pushButton->setText("Send request");
@@ -142,13 +134,12 @@ void MainWindow::on_requestReceived(QString req){
 
 }
 
+//quando o proxy manda o request
 void MainWindow::on_requestSent(){
     ui->plainTextEdit->setDisabled(true);
-    //ui->pushButton->setDisabled(true);
-
-   //ui->pushButton->setText("retrieve reply");
 }
 
+//quando proxy recebe a resposta
 void MainWindow::on_replyReceived(QString reply){
 
     ui->plainTextEdit_2->document()->setPlainText(reply);
@@ -160,6 +151,7 @@ void MainWindow::on_replyReceived(QString reply){
     ui->pushButton->setDisabled(false);
 }
 
+//quando a resposta é mandada do proxy para o browser
 void MainWindow::on_replyRetrieved(){
     ui->plainTextEdit->setDisabled(true);
     ui->plainTextEdit_2->setDisabled(true);
@@ -185,7 +177,6 @@ void MainWindow::on_pushButton_2_clicked()
 {
     qDebug() << "clicouSpider";
     ui->plainTextEdit_3->setPlainText("");
-    //emit sendUrlAndDepth("http://www.linuxhowtos.org/", "1" ); //Não funciona
 
     webtoolsThread.start();
     emit sendUrlAndDepth(ui->textEdit->toPlainText(), ui->textEdit_3->toPlainText());
@@ -197,7 +188,6 @@ void MainWindow::on_pushButton_2_clicked()
 void MainWindow::on_pushButton_3_clicked()
 {
     qDebug() << "clicouDump";
-    //emit sendUrlAndDepth(ui->textEdit_2->toPlainText(), "1" ); //adicionar campo depth na tela do dump?? //Não funciona
     webtoolsThread.start();
     emit sendUrlAndDepth(ui->textEdit_2->toPlainText(), ui->textEdit_4->toPlainText());
 }
